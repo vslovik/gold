@@ -5,7 +5,7 @@ il	RDms
 terremoto	Sms
 .	FS
 
-Scossa	Vpsfs
+Scossa	Sfs
 di	E
 terremoto	Sms
 avvertito	Vpsms
@@ -32,10 +32,10 @@ colpiti	Vpsmp
 dal	EAms
 terremoto	Sms
 :	FC
-http://htxt.it/vQ2C	N
+http://htxt.it/vQ2C	X
 
-@slimshadylady	Snn
-perchè	CS
+@slimshadylady	SP
+perché	B
 trovi	Vip2s
 dannoso	Ams
 che	CS
@@ -64,7 +64,7 @@ Twitter	SP
 .	FS
 
 -	FC
-http://htxt.it/7hai	Snn
+http://htxt.it/7hai	X
 
 Terremoto	Sms
 a	E
@@ -73,7 +73,7 @@ segnalato	Vpsms
 via	B
 Twitter	SP
 -	FC
-http://htxt.it/xNzl	N
+http://htxt.it/xNzl	X
 
 Terremoto	Sms
 a	E
@@ -82,7 +82,7 @@ segnalato	Vpsms
 via	B
 Twitter	SP
 -	FC
-http://htxt.it/so3N	N
+http://htxt.it/so3N	X
 
 Lieve	Ans
 scossa	Sfs
@@ -97,7 +97,7 @@ Twitter	SP
 .	FS
 
 -	FC
-http://htxt.it/RQ8K	N
+http://htxt.it/RQ8K	X
 
 Lieve	Ans
 scossa	Sfs
@@ -112,7 +112,7 @@ Twitter	SP
 .	FS
 
 -	FC
-http://htxt.it/hE8r	N
+http://htxt.it/hE8r	X
 
 Terremoto	Sms
 a	E
@@ -121,7 +121,7 @@ segnalato	Vpsms
 via	B
 Twitter	SP
 -	FC
-http://htxt.it/hBNE	N
+http://htxt.it/hBNE	X
 
 Lieve	Ans
 scossa	Sfs
@@ -136,9 +136,10 @@ Twitter	SP
 .	FS
 
 -	FC
-http://htxt.it/ToHH	N
+http://htxt.it/ToHH	X
 
-#terremoto:	Snn
+#terremoto  Sms
+:   FC
 su	E
 Twitter	SP
 sembra	Vip3s
@@ -176,7 +177,7 @@ Twitter	SP
 .	FS
 
 -	FC
-http://htxt.it/lkFg	N
+http://htxt.it/lkFg	X
 
 Terremoto	Sms
 a	E
@@ -185,9 +186,10 @@ segnalato	Vpsms
 via	B
 Twitter	SP
 -	FC
-http://htxt.it/F6pZ	N
+http://htxt.it/F6pZ	X
 
-#terremoto.	Snn
+#terremoto	Sms
+.   FS
 
 Televideo	Smn
 RAI	SP
@@ -204,7 +206,9 @@ intitola	Vip3s
 forte	B
 scossa	Vpsfs
 tra	E
-Marche-Romagna	N
+Marche SP
+- 	CC
+Romagna	SP
 
 Lieve	Ans
 scossa	Sfs
@@ -219,7 +223,7 @@ Twitter	SP
 .	FS
 
 -	FC
-http://htxt.it/F95w	N
+http://htxt.it/F95w	X
 
 Terremoto	Sms
 a	E
@@ -229,9 +233,9 @@ a	E
 l'	RDns
 Aquila	SP
 -	FC
-http://htxt.it/9o2N	N
+http://htxt.it/9o2N	X
 
-#terremoto	Snn
+#terremoto	Sms
 a	E
 Ravenna	SP
 il	RDms
@@ -240,15 +244,15 @@ si	PC3nn
 muove	Vip3s
 da	E
 solo	Ams
-....	N
+....	FS
 scossa	Sfs
 di	E
 terremoto	Sms
 fortina	Sfs
 
-Scossa	Vpsfs
+Scossa	Sfs
 di	E
-Terremo	SP
+Terremoto Sms
 forte	B
 ,	FF
 avete	VAip2p
@@ -261,7 +265,7 @@ terremoto	Sms
 ,	FF
 qui	B
 :	FC
-http://snurl.com/fb2i4	Snn
+http://snurl.com/fb2i4	X
 
 terremoto	Sms
 ?	FS
@@ -277,20 +281,19 @@ annunciato	Vpsms
 da	E
 Giampaolo	SP
 Giuliani	SP
-http://tinyurl.com/csotz2	Snn
+http://tinyurl.com/csotz2	X
 
 il	RDms
 terremoto	Sms
 visto	Vpsms
 dai	EAmp
-media	Sfs
+media	Smp
 del	EAms
 resto	Sms
 del	EAms
 mondo	Sms
 :	FC
-http://www.rudybandiera.com/il	Snn
--sisma-abruzzese-visto-dal-resto-del-mondo-0406.html	Snn
+http://www.rudybandiera.com/il-sisma-abruzzese-visto-dal-resto-del-mondo-0406.html	X
 
 Ma	CC
 qualcuno	PIms
@@ -302,10 +305,9 @@ di	E
 terremoto	Sms
 delle	EAfp
 22.20	N
-http://www.rudybandiera.com/terremoto	Sms
--a-ferrara-0405.html	Snn
+http://www.rudybandiera.com/terremoto-a-ferrara-0405.html	X
 
-pensa	Vcp3s
+pensa	Vm2s
 ai	EAmp
 bimbi	Smp
 morti	Vpsmp
@@ -335,7 +337,7 @@ sfollati	Smp
 :	FC
 Una	RIfs
 nuova	Sfs
-scossa	Vpsfs
+scossa	Sfs
 di	E
 terremoto	Sms
 è	VAip3s
@@ -343,7 +345,7 @@ stata	VApsfs
 avvertita	Vpsfs
 alle	EAfp
 ...	FF
-http://tinyurl.com/cyoc35	Snn
+http://tinyurl.com/cyoc35	X
 
 Un	RIms
 uomo	Sms
@@ -373,7 +375,7 @@ in	E
 un	RIms
 bosco	Sms
 ...	FF
-http://tinyurl.com/cwqux5	Snn
+http://tinyurl.com/cwqux5	X
 
 Terremoto	Sms
 in	E
@@ -385,7 +387,7 @@ morti	Smp
 venerdì	Smn
 funerali	Smp
 di	E
-Stato	SP
+Stato	Sms
 :	FC
 Salgono	Vip3p
 a	E
@@ -395,10 +397,10 @@ vittime	Sfp
 del	EAms
 terremoto	Sms
 che	PRnn
-ha	Vip3s
-colpit	SW
+ha	VAip3s
+colpito	Vpsms
 ...	FF
-http://tinyurl.com/canfxd	Snn
+http://tinyurl.com/canfxd	X
 
 Terremoto	Sms
 in	E
@@ -420,9 +422,9 @@ terremoto	Sms
 arrivata	Vpsfs
 in	E
 piena	Afs
-nott	Snn
+notte	Sfs
 ...	FF
-http://tinyurl.com/de43zt	Snn
+http://tinyurl.com/de43zt	X
 
 Terremoto	Sms
 in	E
@@ -445,9 +447,9 @@ il	RDms
 nuovo	Ams
 bilancio	Sms
 delle	EAfp
-vittim	Snn
-...	FF
-http://tinyurl.com/cvcx5d	Snn
+vittime	Sfs
+...	FS
+http://tinyurl.com/cvcx5d	X
 
 Boom	Smn
 di	E
@@ -469,8 +471,8 @@ torinesi	Anp
 si	PC3nn
 è	VAip3s
 scatenata	Vpsfs
-...	FF
-http://tinyurl.com/c2op8z	Snn
+...	FS
+http://tinyurl.com/c2op8z	X
 
 Ieri	B
 un	RIms
@@ -494,7 +496,7 @@ coinvolte	Vpsfp
 :	FC
 ques	Snn
 ...	FF
-http://tinyurl.com/d5b65h	Snn
+http://tinyurl.com/d5b65h	X
 
 Terremoto	Sms
 Abruzzo	SP
@@ -517,9 +519,9 @@ Sono	Vip3p
 i	RDmp
 morti	Smp
 accertati	Vpsmp
-n	SA
+n
 ...	FF
-http://tinyurl.com/cs5l52	Snn
+http://tinyurl.com/cs5l52	X
 
 Terremoto	Sms
 in	E
@@ -544,7 +546,7 @@ provocati	Vpsmp
 dal	EAms
 terre	Sfp
 ...	FF
-http://tinyurl.com/dy2q4r	Snn
+http://tinyurl.com/dy2q4r	X
 
 Terremoto	Sms
 in	E
@@ -593,7 +595,7 @@ pericolo	Sms
 incurante	Ans
 del	EAms
 ...	FF
-http://tinyurl.com/c3okb3	Snn
+http://tinyurl.com/c3okb3	X
 
 Turista	Sns
 italiano	Ams
@@ -617,7 +619,7 @@ Procopio	SP
 morto	Vpsms
 in	E
 ...	FF
-http://tinyurl.com/daqc2q	Snn
+http://tinyurl.com/daqc2q	X
 
 Quattro	N
 giovani	Snp
@@ -641,27 +643,9 @@ e	CC
 due	N
 ragazze	Sfp
 ,	FF
-t	Snn
+t
 ...	FF
-http://tinyurl.com/cn3vaa	Snn
-
-#earthquake	Sms
-#terremoto	Ams
-6	N
-people	Sms
-still	Snn
-alive	Snn
-under	Snn
-"	FB
-Casa	SP
-dello	EAms
-studente	Sms
-"	FB
-rubble	Snn
-in	E
-L'	RDns
-Aquila	SP
-.	FS
+http://tinyurl.com/cn3vaa	X
 
 Molto	B
 triste	Ans
@@ -671,7 +655,7 @@ ll	Snn
 terremoto	Sms
 in	E
 italia	SP
-mettero	Snn
+metterò	Snn
 un	RIms
 casco	Sms
 in	E
@@ -688,7 +672,7 @@ tutti	PImp
 in	E
 italia	SP
 
-@alessio1970	Snn
+@alessio1970	SP
 troviamo	Vip1p
 la	RDfs
 maniera	Sfs
@@ -704,7 +688,7 @@ ho	VAip1s
 visto	Vpsms
 le	RDfp
 foto	Sfn
-....	N
+....	FC
 molto	B
 male	B
 
@@ -719,24 +703,24 @@ e	CC
 un	RIms
 ferito	Sms
 grave	Ans
-http://tinyurl.com/d6fmgh	Snn
+http://tinyurl.com/d6fmgh	X
 
-@alessio1970	Snn
+@alessio1970	SP
 eh	I
 si	PC3nn
 ...	FF
 fortissima	Afs
 scossa	Sfs
-....	N
+....	FC
 notizie	Sfp
 veramente	B
 tristi	Anp
-....	N
+....	FC
 
-:-(	N
+:-(	X
 
-Forte	B
-scossa	Vpsfs
+Forte	Ans
+scossa	Sfs
 di	E
 terremoto	Sms
 (	FB
@@ -758,7 +742,7 @@ a	E
 Trieste	SP
 .	FS
 
-@oksymoron	Snn
+@oksymoron	SP
 a	E
 sentire	Vf
 "	FB

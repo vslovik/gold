@@ -1,8 +1,9 @@
-#UltimOra	N
-Nubifragio	SP
+#UltimOra	SP
+Nubifragio	Sms
 nelle	EAfp
-#Marche,	N
-sala	Sfs
+#Marche SP
+,   FC
+sala	Vip3s
 a	E
 due	N
 il	RDms
@@ -10,18 +11,18 @@ bilancio	Sms
 dei	EAmp
 morti	Smp
 a	E
-#Senigallia	Sfs
-http://t.co/cDqTVlVKeD	N
+#Senigallia	SP
+http://t.co/cDqTVlVKeD	X
 
 "	FB
-@matteoricci:	Snn
-Maltempo	SP
+@matteoricci:	SP
+Maltempo	Sms
 ,	FF
 Ricci	SP
 :	FC
 «	FB
-Fiume	SP
-Foglia	Vip3s
+Fiume	Sms
+Foglia	SP
 sotto	E
 controllo	Sms
 ma	CC
@@ -30,31 +31,33 @@ milioni	Smp
 di	E
 danni	Smp
 »	FB
-http://t.co/04JGAicB7u	N
+http://t.co/04JGAicB7u	X
 "	FB
 .	FS
 
-#allertameteoMAR	N
+#allertameteoMAR	SP
 
-#Alluvione	N
-#Senigallia,	N
-#danni:	Snn
+#Alluvione	Sfs
+#Senigallia SP
+,   FC
+#danni	Sms
+:   FC
 montagne	Sfp
 di	E
 oggetti	Smp
 gettati	Vpsmp
 sulle	EAfp
 strade	Sfp
-VIDEO	SP
-http://t.co/8KG6fMUPqn	N
+VIDEO	Smn
+http://t.co/8KG6fMUPqn	X
 
 È	Vip3s
 ufficialmente	B
 dichiarato	Vpsms
 morto	Vpsms
 l'	RDns
-anziano	Ams
-disperso	Sms
+anziano	Sms
+disperso	Vpsms
 nella	EAfs
 piena	Sfs
 del	EAms
@@ -64,7 +67,8 @@ a	E
 Borgo	SP
 Bicchia	SP
 di	E
-#Senigallia.	N
+#Senigallia SP
+.   FS
 
 È	VAip3s
 stato	VApsms
@@ -87,34 +91,35 @@ zona	Sfs
 di	E
 Borgo	SP
 Bicchia	SP
-a	Snn
-#Senigallia.	Snn
+a	E
+#Senigallia	SP
+.   FS
 
 "	FB
-@Emergenza24:	N
+@Emergenza24:	SP
 [	FB
 03.05-16	N
 :	FC
 30	N
 ]	FB
-FOTO	SP
-#Senigallia	N
-#Ancona	N
+FOTO	Sfn
+#Senigallia	SP
+#Ancona	SP
 #ALLUVIONE	Sfs
 +2	N
 morti	Smp
 +1	N
-#disperso	Sms
-#AllertaMeteoMAR	N
-#emergenza24	SA
-http://t.co/xk131J4y6I	N
+#disperso	Vpsms
+#AllertaMeteoMAR	SP
+#emergenza24	SP
+http://t.co/xk131J4y6I	X
 "	FB
 
 "	FB
-@ti_melis2:	Snn
+@ti_melis2:	SP
 Domani	B
 sul	EAms
-Tg	SP
+Tg	SA
 farà	Vif3s
 più	B
 notizia	Sfs
@@ -124,14 +129,14 @@ che	PRnn
 i	RDmp
 morti	Smp
 delle	EAfp
-marche	Sfp
+marche	SP
 .	FS
 
 Vergogne	Sfp
 italiane	Afp
 .	FS
 
-#allertameteoMAR"	N
+#allertameteoMAR"	SP
 
 Governi	Smp
 si	PC3nn
@@ -153,11 +158,12 @@ i	RDmp
 danni	Smp
 di	E
 sempre	B
-#Senigallia	N
-http://t.co/iEwK3oAUcv	N
+#Senigallia	SP
+http://t.co/iEwK3oAUcv	X
 
-#Senigallia,	N
-pare	Sfp
+#Senigallia	SP
+,   FC
+pare	Vip3p
 siano	Vcp3p
 due	N
 i	RDmp
@@ -168,24 +174,25 @@ ennesima	Afs
 fottuta	Vpsfs
 #alluvione	Sfs
 italiana	Afs
-:(	N
+:(	X
 
 #alluvione	Sfs
 di	E
-#senigallia,	SW
-#operaio	SW
-#precipita	SW
+#senigallia	SP
+,   FC
+#operaio	Sms
+#precipita	Vip3s
 per	E
 rimuovere	Vf
 in	E
 fango	Sms
 :	FC
 ferito	Vpsms
-http://t.co/T4si2XrnO0	N
+http://t.co/T4si2XrnO0	X
 
-@scamarciotweet	Snn
+@scamarciotweet	SP
 Sarebbe	Vd3s
-ora	B
+ora	Sfs
 di	E
 soluzioni	Sfp
 .	FS
@@ -199,11 +206,11 @@ e	CC
 danni	Smp
 .	FS
 
-@CapitanAchab	N
-@lapinna1	SA
-@SkyTG24	N
-@matteorenzi	SA
-#allertameteoMAR	N
+@CapitanAchab	SP
+@lapinna1	SP
+@SkyTG24	SP
+@matteorenzi	SP
+#allertameteoMAR	SP
 
 Un'	RIfs
 alluvione	Sfs
@@ -225,21 +232,21 @@ in	E
 ginocchio	Sms
 .	FS
 
-#Senigallia	N
+#Senigallia	SP
 
 "	FB
-@senigalliaweb:	Snn
-#Senigallia	Snn
-ATTENZIONE	SP
-Appello	SP
+@senigalliaweb:	SP
+#Senigallia	SP
+ATTENZIONE	Sfs
+Appello	Sms
 del	EAms
-Sindaco	SP
+Sindaco	Sms
 ai	EAmp
 curiosi	Smp
 :	FC
 "	FB
 Non	BN
-interferite	Vpsfp
+interferite	Vm2p
 con	E
 le	RDfp
 operazioni	Sfp
@@ -247,39 +254,38 @@ di	E
 sicurezza	Sfs
 "	FB
 "	FB
-#allertameteoMAR	N
+#allertameteoMAR	SP
 
 Crollato	Vpsms
 ponte	Sms
 sulla	EAfs
 strada	Sfs
 Lungo	SP
-#Ete,	N
+#Ete	SP
+,   FC
 a	E
 monte	Sms
 del	EAms
 ponte	Sms
 Zallocco	SP
 a	E
-S.Elpidio	N
+S.Elpidio	SP
 a	E
 Mare	SP
 https	Snn
-:	FC
-/	X
-/	X
-t.co/HJep1KjMtj	N
-#allertameteoMAR	N
-@Emergenza24	N
+://	X
+t.co/HJep1KjMtj	X
+#allertameteoMAR	SP
+@Emergenza24	SP
 
-RT	SW
-@senigalliaweb	SW
-#Senigallia	SW
+RT	SA
+@senigalliaweb	SP
+#Senigallia	SP
 da	E
 mercoledì	Smn
 disponibili	Anp
 moduli	Smp
-x	Ann
+x	X
 segnalare	Vf
 al	EAms
 Comune	SP
@@ -290,11 +296,11 @@ con	E
 una	RIfs
 prima	NOfs
 stima	Sfs
-#allertameteoMAR	N
+#allertameteoMAR	X
 
 diffusione	Sfs
 RT	SP
-@senigalliaweb:	Snn
+@senigalliaweb:	SP
 #Senigallia	Snn
 Come	B
 segnalare	Vf
@@ -307,19 +313,19 @@ subiti	Amp
 moduli	Smp
 e	CC
 info	Sms
-#allertameteoMAR	N
-http://t.co/ZEdA7fTioV	N
+#allertameteoMAR	X
+http://t.co/ZEdA7fTioV	X
 "	FB
 
 "	FB
-@senigalliaweb:	Snn
-#Senigallia	Snn
+@senigalliaweb:	SP
+#Senigallia	SP
 Sportello	SP
-x	Ann
+x	X
 info	Sms
 dichiarazione	Sfs
 danni	Smp
-tel	SP
+tel	SA
 071.6629583	N
 dal	EAms
 lunedì	Smn
@@ -329,12 +335,12 @@ dalle	EAfp
 8.00	N
 alle	EAfp
 20	N
-#allertameteoMAR"	N
+#allertameteoMAR"	SP
 
 "	FB
-@senigalliaweb:	Snn
-#Senigallia	Snn
-3	Snn
+@senigalliaweb:	SP
+#Senigallia	SP
+3	N
 gazebo	Smn
 nelle	EAfp
 zone	Sfp
@@ -350,16 +356,17 @@ aiuto	Sms
 compilazione	Sfs
 moduli	Smp
 danni	Smp
-#allertameteoMAR"	N
+#allertameteoMAR"	SP
 
-Ansa	Sfs
+Ansa	SA
 *	X
 Bomba	SP
 d'	E
 acqua	Sfs
 nelle	EAfp
 .	FS
-#Marche,	N
+#Marche	SP
+,   FC
 un	RIms
 morto	Sms
 e	CC
@@ -368,20 +375,21 @@ disperso	Sms
 .	FS
 
 Il	RDms
-Presidente	SP
-Regione	SP
-Spacca	Vip3s
+Presidente	Sms
+Regione	Sfs
+Spacca	SP
 :	FC
 "	FB
 Situazione	SP
 drammatica	Afs
 a	E
-#Senigallia".	N
+#Senigallia"	SP
+.   FC
 
-Ansa	Sfs
+Ansa	SA
 *	X
 Le	RDfp
-#Marche	N
+#Marche	SP
 in	E
 ginocchio	Sms
 per	E
@@ -393,7 +401,7 @@ morti	Smp
 .	FS
 
 A	E
-#Senigallia	Sfs
+#Senigallia	SP
 mancano	Vip3p
 luce	Sfs
 e	CC
@@ -401,15 +409,17 @@ linea	Sfs
 telefono	Sms
 ,	FF
 scuole	Sfp
-chiuse.a	Snn
-
+chiuse	Afp
+.
+a
 "	FB
-@SkyTG24:	N
-#UltimOra	N
-Nubifragio	SP
+@SkyTG24:	SP
+#UltimOra	SP
+Nubifragio	Sms
 nelle	EAfp
-#Marche,	N
-sala	Sfs
+#Marche	SP
+,   FC
+sala	Vip3s
 a	E
 due	N
 il	RDms
@@ -417,8 +427,8 @@ bilancio	Sms
 dei	EAmp
 morti	Smp
 a	E
-#Senigallia	Sfs
-http://t.co/zF1ue24tmr	N
+#Senigallia	SP
+http://t.co/zF1ue24tmr	X
 "	FB
 un	RIms
 disastro	Sms
@@ -431,11 +441,11 @@ sapevo	Vii1s
 del	EAms
 #disastro	Sms
 di	E
-#senigallia	Sfs
-@morenocedroni	SW
-@maurouliassi	SW
+#senigallia	SP
+@morenocedroni	SP
+@maurouliassi	SP
 come	E
-state	Sfp
+state	Vip2p
 ?	FS
 
 danni	Smp
@@ -449,44 +459,45 @@ mano	Sfs
 ?	FS
 
 #meteo	Sms
-#marche	Ans
+#marche	SP
 situazione	Sfs
 molto	B
-critica	Vm2s
+critica	Afs
 in	E
 provincia	Sfs
 di	E
-ancona	Sfs
-...	FF
+ancona	SP
+...	FC
 soprattutto	B
 zona	Sfs
-#Senigallia	N
+#Senigallia	SP
 allagamenti	Smp
 danni	Smp
 e	CC
 vittime	Sfp
 ...	FF
 
-#Marche:	N
+#Marche:	SP
 emergenza	Sfs
-#maltempo,	N
+#maltempo	Sms
+,   FC
 morti	Smp
 e	CC
 sfollati	Smp
 .	FS
 
-#Senigallia	N
+#Senigallia	SP
 senza	E
 luce	Sfs
 e	CC
 telefoni	Smp
 -	FC
-VIDEO	SP
+VIDEO	Smn
 -	FC
-http://t.co/XuhUszYmf9	N
+http://t.co/XuhUszYmf9	X
 
 "	FB
-Solidarietà	SP
+Solidarietà	Sms
 a	E
 cittadini	Smp
 colpiti	Vpsmp
@@ -501,9 +512,10 @@ e/o	CC
 immobili	Anp
 danneggiati	Smp
 "	FB
-#senigallia....	Snn
+#senigallia	SP
+....	FC
 
-http://t.co/UKuLrDjY0P	N
+http://t.co/UKuLrDjY0P	X
 
 A	E
 disposizione	Sfs
@@ -518,13 +530,15 @@ i	RDmp
 risarcimenti	Smp
 dei	EAmp
 danni	Smp
-#senigallia....	Ann
+#senigallia	SP
+....    FS
 
-http://t.co/TKHfEPLqYt	N
+http://t.co/TKHfEPLqYt	X
 
-#Maltempo	N
-#Marche,	N
-#Senigallia	N
+#Maltempo	SP
+#Marche	SP
+,   FC
+#Senigallia	SP
 è	VAip3s
 sommersa	Vpsfs
 :	FC
@@ -539,8 +553,8 @@ d'	E
 emergenza	Sfs
 .	FS
 
-#allertameteoMAR	N
-http://t.co/VUsqsEruSf	N
+#allertameteoMAR	SP
+http://t.co/VUsqsEruSf	X
 
 piove	Vip3s
 non	BN
@@ -555,28 +569,28 @@ anche	B
 su	E
 aree	Sfp
 urbanizzate	Afp
-,	FF
+,	FC
 male	B
-,	FF
+,	FC
 con	E
 risultati	Smp
 di	E
 danno	Sms
 esiziale	Ans
-#Senigallia	N
+#Senigallia	SP
 
 2	N
 morti	Smp
-,	FF
+,	FC
 per	E
 pioggia	Sfs
 .	FS
 
-#allertameteoMAR	N
-#Senigallia	N
+#allertameteoMAR	SP
+#Senigallia	SP
 2	N
 feriti	Smp
-,	FF
+,	FC
 colpi	Smp
 di	E
 pistola	Sfs
@@ -586,11 +600,11 @@ Coppa	SP
 Italia	SP
 .	FS
 
-#ilcapoultrahadeciso	Sms
-http://t.co/6sIZCDmXY6	N
+#ilcapoultrahadeciso	SP
+http://t.co/6sIZCDmXY6	X
 
 A	E
-#Senigallia	Sfs
+#Senigallia	SP
 torna	Vip3s
 il	RDms
 sereno	Sms
@@ -604,18 +618,19 @@ si	PC3nn
 contano	Vip3p
 i	RDmp
 danni	Smp
-http://t.co/70XCp7S7kQ	N
+http://t.co/70XCp7S7kQ	X
 
 "	FB
-@ancona24ore:	Snn
-Maltempo	SP
+@ancona24ore:	SP
+Maltempo	Sms
 ,	FF
 due	N
 morti	Smp
 a	E
-#Senigallia.	N
+#Senigallia	SP
+.   FS
 
-Spacca	Vip3s
+Spacca	SP
 :	FC
 "	FB
 Vicini	SP
@@ -623,11 +638,11 @@ alle	EAfp
 comunità	Sfn
 coinvolte	Vpsfp
 "	FB
-....	N
-http://t.co/CpXGc1xBtw	N
+....	FS
+http://t.co/CpXGc1xBtw	X
 "	FB
 
-#Senigallia	N
+#Senigallia	SP
 #alluvione	Sfs
 Alluvione	SP
 sulle	EAfp
@@ -638,9 +653,9 @@ morto	Sms
 e	CC
 un	RIms
 disperso	Sms
-http://t.co/NFR9wFAnAT	N
+http://t.co/NFR9wFAnAT	X
 via	Sfs
-@repubblicait	Snn
+@repubblicait	SP
 
 Mi	PC1ns
 fanno	Vip3p
@@ -669,7 +684,7 @@ allo	EAms
 sbando	Sms
 .	FS
 
-#Senigallia	N
+#Senigallia	SP
 
 Moduli	Smp
 per	E
@@ -680,17 +695,17 @@ dei	EAmp
 danni	Smp
 .	FS
 
-#senigallia	Sfs
+#senigallia	SP
 #marche	Snn
-#alluvionemarche	Snn
-http://t.co/vzWJVgJubN	Snn
+#alluvionemarche	SP
+http://t.co/vzWJVgJubN	X
 
-#Marche	N
-Auto	SP
+#Marche	SP
+Auto	Sfn
 trascinate	Vpsfp
 dall'	EAns
 acqua	Sfs
-Guarda	Vip3s
+Guarda	Vm2s
 i	RDmp
 danni	Smp
 dell'	EAns
@@ -698,8 +713,8 @@ alluvione	Sfs
 che	PRnn
 ha	VAip3s
 colpito	Vpsms
-#Senigallia	N
-http://t.co/GwZSsgloh1	N
+#Senigallia	SP
+http://t.co/GwZSsgloh1	X
 
 Per	E
 i	RDmp
@@ -707,20 +722,20 @@ morti	Smp
 dell'	EAns
 alluvione	Sfs
 delle	EAfp
-marche	Sfp
+marche	SP
 mi	PC1ns
 dispiace	Vip3s
 un	RIms
-po	SP
+po'	Sms
 di	E
 più	B
 .	FS
 
-#FiorentinaNapoli	N
-#allertameteoMAR	N
+#FiorentinaNapoli	SP
+#allertameteoMAR	SP
 
 "	FB
-Bomba	SP
+Bomba	Sfs
 d'	E
 acqua	Sfs
 "	FB
@@ -734,10 +749,10 @@ allagate	Vpsfp
 :	FC
 un	RIms
 morto	Sms
-http://t.co/akLpSnkJ6X	N
-#Senigallia	N
-#marche	SA
-http://t.co/nQwDX0XSmp	N
+http://t.co/akLpSnkJ6X	X
+#Senigallia	SP
+#marche	SP
+http://t.co/nQwDX0XSmp	X
 
 Maltempo	Sms
 ,	FF

@@ -8,7 +8,7 @@ armadio	Sms
 aperto	Ams
 ,	FF
 #creepy	SW
-#terremoto	SW
+#terremoto	Sms
 
 altra	DIfs
 scossa	Sfs
@@ -40,19 +40,19 @@ cazzo	Sms
 
 #terremoto	Sms
 grazie	I
-maya	Sfs
+maya	SP
 per	E
 il	RDms
 regalo	Sms
 di	E
 compleanno	Sms
-....	N
+....	FS
 
-RaiNews24	N
+RaiNews24	SP
 annuncia	Vip3s
 morto	Vpsms
 nel	EAms
-ferrarese	Ans
+ferrarese	SP
 #terremoto	Sms
 
 Svegliata	Vpsfs
@@ -64,20 +64,20 @@ stessa	Afs
 notte	Sfs
 dal	EAms
 terremoto	Sms
-....	N
+....	FS
 
 questa	DDfs
 era	Sfs
-propio	Afs
+propio	B
 piccola	Afs
-perche	Snn
+perche	CS
 non	BN
 ho	VAip1s
 sentito	Vpsms
 niente	PIns
-......	N
+......	FS
 #terremoto	Sms
-#milano	Ams
+#milano	SP
 
 #terremoto	Sms
 bussa	Vip3s
@@ -108,14 +108,15 @@ l'	RDns
 ottimismo	Sms
 ...	FF
 #terremoto	Sms
-#ciccione	Sfs
+#ciccione	Sms
 
 I	RDmp
-TT	SP
+TT	SA
 sono	Vip3p
-#terremoto	Sfs
+#terremoto	Sms
 e	CC
-#chelsea,	Sms
+#chelsea    SP
+,   FF
 ma	CC
 guai	Smp
 associarli	Vfc
@@ -127,22 +128,22 @@ era	Vii3s
 suggestione	Sfs
 ,	FF
 altra	DIfs
-scossetta	Afs
-ora	Sfs
+scossetta	Sfs
+ora	B
 ora	B
 #terremoto	Sms
 ,	FF
 ma	CC
-che	DQnn
+che	DEnn
 cavolo	Sms
 
 E	CC
-cmq	Sms
+cmq	B
 ,	FF
 grazie	I
 #terremoto	Sms
 :	FC
-spenta	Afs
+spenta	Vpsfs
 luce	Sfs
 alle	EAfp
 2.40	N
@@ -150,9 +151,9 @@ alle	EAfp
 svegliato	Vpsms
 alle	EAfp
 4.03	N
-....	SA
+....	FS
 
-#terremoto	Snn
+#terremoto	Sms
 a	E
 milano	SP
 ,	FF
@@ -163,13 +164,14 @@ Mi	PC1ns
 ha	VAip3s
 svegliato	Vpsms
 il	RDms
-#terremoto,	Sms
+#terremoto	Sms
+,   FF
 sembrava	Vii3s
 crollasse	Vci3s
 tutto	PIms
 .	FS
 
-#bologna	Snn
+#bologna	SP
 
 eh	I
 no	BN
@@ -181,14 +183,14 @@ finita	Vpsfs
 !	FS
 
 Altra	DIfs
-scossa	Vpsfs
+scossa	Sfs
 ora	B
 in	E
 diretta	Sfs
-#terremoto	Ams
-#Lugano	N
+#terremoto	Sms
+#Lugano	SP
 
-Fanculo	SP
+Fanculo	I
 avevo	Vii1s
 quasi	B
 deciso	Vpsms
@@ -197,7 +199,7 @@ riprovare	Vf
 a	E
 dormire	Vf
 e	CC
-via	Sfs
+via	I
 altre	DIfp
 scosse	Sfp
 #terremoto	Sms
@@ -217,19 +219,20 @@ tutto	PIms
 ok	I
 ?	FS
 
-#earthquake	Snn
+#earthquake	SW
 
 Altra	DIfs
 scossa	Sfs
 di	E
 #terremoto	Sms
-#verona	Snn
+#verona	SP
 
 Altra	DIfs
-scossa	Vpsfs
+scossa	Sfs
 ora	B
 di	E
-#terremoto.	Sms
+#terremoto	Sms
+.   FS
 
 E	CC
 siamo	Vip1p
@@ -237,7 +240,7 @@ a	E
 3	N
 !	FS
 
-#terremoto	Snn
+#terremoto	Sms
 su	E
 SKY	SP
 inizia	Vip3s
@@ -247,7 +250,7 @@ diretta	Sfs
 Nell'	EAns
 epicentro	Sms
 di	E
-#Bologna	N
+#Bologna	SP
 non	BN
 si	PC3nn
 perde	Vip3s
@@ -258,8 +261,8 @@ bambino	Sms
 
 #terremoto	Sms
 
-Mini	Smp
-scossa	Vpsfs
+Mini	Ann
+scossa	Sfs
 di	E
 assestamento	Sms
 ?	FS
@@ -275,15 +278,15 @@ non	BN
 cantano	Vip3p
 dalla	EAfs
 gioa	Sfs
-....	N
+....	FF
 #terremoto	Sms
-#	N
+#	X
 
 Se	CS
-'sto	Sms
+'sto	DDms
 sciame	Sms
 sismico	Ams
-la	RDfs
+la	PC3fs
 finisce	Vip3s
 ,	FF
 vorrei	VMd1s
@@ -313,16 +316,16 @@ credevo	Vii1s
 
 5	N
 morti	Smp
-...	FF
+...	FS
 
-#terremoto	Snn
+#terremoto	Sms
 a	Snn
-#imola	Snn
+#imola	SP
 e	CC
-#Faenza	N
+#Faenza	SP
 nuova	Afs
 scossa	Sfs
-....	N
+....	FF
 piccola	Afs
 per	E
 fortuna	Sfs
@@ -335,24 +338,25 @@ basta	Vip3s
 eh	I
 !	FS
 
-Che	DQnn
+Che	DEnn
 cazzo	Sms
 .	FS
 
-Scossa	Vpsfs
+Scossa	Sfs
 di	E
 assestamento	Sms
 ora	B
 #terremoto	Sms
 
-#terremoto.	Snn
+#terremoto	Sms
+.	FS
 
 In	E
 questo	DDms
 momento	Sms
 a	E
-#novara	Sfs
-scossa	Afs
+#novara	SP
+scossa	Sfs
 ondulatoria	Afs
 .	FS
 
@@ -366,14 +370,16 @@ Parlano	Vip3p
 di	E
 danni	Smp
 a	E
-#finale	Sfs
+#finale	SP
 e	CC
-#modena.	SW
-#terremoto.	SW
+#modena	SP
+.	FS
+#terremoto	Sms
+.	FS
 
 Altra	DIfs
 scossa	Sfs
-#terremoto	Sfn
+#terremoto	Sfs
 sentita	Vpsfs
 a	E
 Milano	SP
@@ -383,41 +389,41 @@ Sempre	B
 settimo	NOms
 piano	Sms
 condominio	Sms
-....	N
+....	FS
 
 #terremoto	Sms
-#Ferrara	N
-VI	PCnn
+#Ferrara	Sp
+VI	N
 grado	Sms
 scala	Vip3s
-#Mercalli	N
+#Mercalli	SP
 nessun	DIms
 danno	Sms
 per	E
 fortuna	Sfs
 
-che	DQnn
+che	DEnn
 spavento	Sms
-#terremoto	Ams
+#terremoto	Sms
 
 mi	PC1ns
-date	Sfp
+date	Vm2p
 più	B
 notizie	Sfp
 su	E
-#sanfelicesulpanaro	Sms
+#sanfelicesulpanaro	SP
 terremoto	Sms
 ?	FS
 
-RT	SW
-@10dannj10:	SW
+RT	SA
+@10dannj10:	SP
 Ancora	B
 da	E
-#Finale	N
-#Emilia	N
-http://t.co/ut9E2xR8	N
+#Finale	SP
+#Emilia	SP
+http://t.co/ut9E2xR8	X
 "	FB
-#terremoto	Sfs
+#terremoto	Sms
 #foto	Snn
 
 Altra	DIfs
@@ -430,10 +436,10 @@ leggera	Afs
 altra	DIfs
 lieve	Ans
 scossa	Sfs
-#terremoto	Snn
+#terremoto	Sms
 anche	B
 a	E
-#reggio	Sms
+#reggio	SP
 appena	B
 riaddormentati	Vpsmp
 
@@ -451,19 +457,19 @@ botta	Sfs
 
 Altra	DIfs
 scossa	Sfs
-#terremoto	Snn
+#terremoto	Sms
 
 Ancora	B
 anche	B
 qui	B
 ,	FF
 Monfalcone	SP
-#terremoto	Snn
+#terremoto	Sms
 
 nel	EAms
 crollo	Sms
 di	E
-bondeno	Sms
+bondeno	SP
 (	FB
 ferrara	SP
 )	FB
@@ -485,9 +491,9 @@ uffa	I
 Ancora	B
 una	RIfs
 scossa	Sfs
-#terremoto	Snn
+#terremoto	Sms
 
-@acciaipa	Sms
+@acciaipa	SP
 manco	Ams
 il	RDms
 #terremoto	Sms
@@ -495,7 +501,8 @@ ti	PC2ns
 sveglia	Sfs
 .	FS
 
-#terremoto,	Sms
+#terremoto	Sms
+,   FF
 tanto	B
 vale	Vip3s
 lavorare	Vf
@@ -519,27 +526,29 @@ scossa	Sfs
 !	FS
 
 #terremoto	Sms
-#ancora!	Snn
+#ancora B
+!   FS
 
-Dai	EAmp
-#maya,	Snn
-fate	Snn
-veloce	Ans
+Dai	I
+#maya	SP
+,   FF
+fate	Vm2p
+veloce	B
 se	CS
 proprio	B
-dovete	VMip2p
-....	N
+dovete	Vip2p
+....	FS
 
-Eccone	CS
+Eccone	Bc
 un'	RIfs
 altra	PIfs
 !	FS
 
 #terremoto	Sms
-#Milano	Ams
+#Milano	PC
 
 Un'	RIfs
-altra	Afs
+altra	DIfs
 scossa	Sfs
 .	FS
 
@@ -550,19 +559,19 @@ di	E
 tornare	Vf
 a	E
 dormire	Vf
-....	N
+....	FS
 
 Danni	Smp
 incalcolabili	Anp
 a	E
 Padova	SP
 #terremoto	Sms
-http://t.co/zZHzjiFW	N
+http://t.co/zZHzjiFW	X
 
 Un	RIms
 #terremoto	Sms
 la	RDfs
-scorsa	Sfs
+scorsa	Afs
 notte	Sfs
 in	E
 Italia	SP
@@ -573,7 +582,7 @@ e	CC
 danni	Smp
 .	FS
 
-:-(	N
+:-(	X
 
 Altra	DIfs
 scossettina	Sfs
@@ -587,7 +596,7 @@ addormentare	Vf
 #terremoto	Sms
 
 #terremoto	Sms
-cazzo	Sms
+cazzo	I
 altra	DIfs
 scossa	Sfs
 .	FS
@@ -596,29 +605,29 @@ Breve	Ans
 stavolta	B
 
 E	CC
-chi	PRnn
-cazzo	Sms
+chi	PQnn
+cazzo	I
 dorme	Vip3s
 più	B
 ?	FS
 
 Beati	Vpsmp
 i	RDmp
-miei	APmp
+miei	PPmp
 che	CS
 a	E
 piano	Sms
-terra	Sfs
+terra	Sms
 sentito	Vpsms
 un	RIms
-casso	Vip1s
+casso	Sms
 !	FS
 
 #terremoto	Sms
 
 "	FB
 così	B
-impari	Vcp3s
+impari	Vip2s
 a	E
 tenere	Vf
 tutte	Tfp
@@ -638,7 +647,7 @@ Armagnac	SP
 salva	Afs
 #terremoto	Sms
 #mamma	Sfs
-#lacrime	Ans
+#lacrime	Sfp
 
 e	CC
 i	RDmp
@@ -648,7 +657,7 @@ più	B
 informazioni	Sfp
 della	EAfs
 tv	Sfn
-....	N
+....	FF
 #terremoto	Sms
 
 #terremoto	Sms
@@ -660,22 +669,21 @@ Milano	SP
 più	B
 leggero	Ams
 
-altra	Afs
+altra	DIfs
 piccola	Afs
 scossa	Sfs
-a	Snn
-#milano	Snn
-#terremoto	Snn
+a	E
+#milano	SP
+#terremoto	Sms
 
 Crollato	Vpsms
 anche	B
 il	RDms
-Duomo	SP
+Duomo	Sms
 di	E
 Mirandola	SP
 ...	FF
-:	FC
-/	X
+:/	X
 #terremoto	Sms
 
 Visto	Vpsms
@@ -697,10 +705,10 @@ islamica	Afs
 Altra	DIfs
 scossa	Sfs
 lunga	Afs
-ora	Sfs
+ora	B
 avvertita	Vpsfs
 a	E
-#vicenza	Sfs
+#vicenza	SP
 #terremoto	Sms
 
 Altra	DIfs
@@ -708,14 +716,14 @@ scossa	Sfs
 .	FS
 
 La	RDfs
-discoball	Snn
+discoball	SW
 è	Vip3s
 il	RDms
 mio	APms
 sismografo	Sms
 .	FS
 
-Che	CS
+Che	DEnn
 due	N
 palle	Sfp
 però	B
@@ -724,12 +732,13 @@ però	B
 Terremoto	Sms
 sentito	Vpsms
 (	FB
-p.Romana	N
+p.  SA
+Romana	SP
 a	E
 Milano	SP
 )	FB
 
-Puttana	Sfs
+Puttana	I
 la	RDfs
 nuova	Afs
 scossa	Sfs
@@ -738,7 +747,7 @@ O	CC
 il	RDms
 mio	APms
 palazzo	Sms
-balla	Sfs
+balla	Vip3s
 ,	FF
 oppure	CC
 è	VAip3s
@@ -746,13 +755,13 @@ ritornato	Vpsms
 il	RDms
 #terremoto	Sms
 a	E
-#milano	Sms
+#milano	PC
 
 Ancora	B
-scossa	Vpsfs
+scossa	Sfs
 debole	Ans
 #terremoto	Sms
-#novara	Snn
+#novara	SP
 adesso	B
 è	Vip3s
 dura	Afs
@@ -7343,7 +7352,7 @@ Altra	DIfs
 scossa.	SA
 #terremoto	Sms
 
-#maya	Sfs
+#maya	SP
 e	CC
 #terremoto	Sms
 e	CC

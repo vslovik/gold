@@ -2,27 +2,27 @@ Spero	Vip1s
 non	BN
 ci	PCnn
 siano	VAcp3p
-stati	VApsmp
+stati	Vpsmp
 danni	Smp
 o	CC
 feriti	Smp
-....	N
+....	FF
 #terremoto	Sms
 
-Ambè	SP
-....	N
+Ambè	I
+....	FS
 
 Ce	PCnn
 mancava	Vii3s
 solo	B
-l	NOnn
-'terremoto	Snn
+l	RDms
+'terremoto	Sms
 a	E
 Pasqua	SP
 !	FS
 !	FS
 
-#mortaccisua	Snn
+#mortaccisua	I
 
 buon	Ams
 pranzo	Sms
@@ -33,6 +33,5 @@ il	RDms
 #terremoto	Sms
 non	BN
 abbia	VAcp3s
-fatto	Sms
+fatto	Vpsms
 danni	Smp
-
