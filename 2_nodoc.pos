@@ -213,7 +213,7 @@ informazione	Sfs
 ?	FS
 
 Nessuno	PIms
-sta	Vip3s
+sta	VAip3s
 parlando	Vg
 di	E
 quel	PDms
@@ -749,7 +749,7 @@ fondi	Smp
 
 #allertameteoSAR	SP
 
-#allertameteoSAR	N
+#allertameteoSAR	SP
 ponte	Sms
 crollato	Vpsms
 a	E
@@ -759,10 +759,10 @@ Pino	SP
 aveva	Vii3s
 già	B
 ceduto	Vpsms
-#NOPedemontana	N
-#NOped	N
-@Maurizio_Lupi	N
-http://t.co/lu2k8WkWZ1	N
+#NOPedemontana	SP
+#NOped	SP
+@Maurizio_Lupi	SP
+http://t.co/lu2k8WkWZ1	X
 
 Ma	CC
 con	E
@@ -777,35 +777,37 @@ canale	Sms
 parli	Vcp3s
 dell'	EAns
 emergenza	Sfs
-meteo	Sms
+meteo	Ann
 ?	FS
 
-#allarmemeteoSAR	N
-#allertameteoSAR	N
+#allarmemeteoSAR	SP
+#allertameteoSAR	SP
 
 Che	DQnn
 strazio	Sms
 gli	RDmp
 agnelli	Smp
 nati	Amp
-morti	Smp
+morti	Amp
 a	E
-#olbia	Sfs
+#olbia	SP
 dopo	E
 l'	RDns
 alluvione	Sfs
-#allertameteoSAR	N
+#allertameteoSAR	SP
 
 RIFUGIO	Sms
 TOBIA	SP
 a	E
 Narbolia	SP
 ha	VAip3s
-subito	B
+subito	Vpsms
 ingenti	Anp
 danni	Smp
 per	E
-alluvione.Domenica	SW
+alluvione	Sfs
+.	FS
+Domenica	SW
 1°	N
 dicembre	Sms
 9.30	N
@@ -816,14 +818,14 @@ il	RDms
 canile	Sms
 .	FS
 
-#allertameteoSAR	N
+#allertameteoSAR	SP
 
-#allertameteoSAR	N
-B	SP
-&B,	SP
+#allertameteoSAR	SP
+B&B	SW
+,	FF
 10	N
 posti	Smp
-letto	Vpsms
+letto	Sms
 gratis	B
 ,	FF
 via	Sfs
@@ -835,14 +837,13 @@ Tel.	SA
 331	N
 2095889	N
 -	FC
-B	SP
-&B	SP
+B&B	SP
 offre	Vip3s
 alloggi	Smp
 gratis	B
 3939800313	N
 
-#allertameteoSAR	N
+#allertameteoSAR	SP
 Sardegna	SP
 ,	FF
 17	N
@@ -859,22 +860,22 @@ Onanì	SP
 a	E
 Torpè	SP
 (	FB
-NU	N
+NU	SP
 )	FB
 [	FB
 DIRETTA	SP
 MULTIMEDIALE	SP
 ]	FB
-http://t.co/g0n6X8wrkC	N
+http://t.co/g0n6X8wrkC	X
 
-#Sardegna	N
-ferita	Sfs
+#Sardegna	SP
+ferita	Afs
 :	FC
 il	RDms
 fotoconfronto	Sms
-#allertameteoSAR	N
-http://t.co/3XfIlTIT5J	N
-http://t.co/Xh98KtBCrV	N
+#allertameteoSAR	SP
+http://t.co/3XfIlTIT5J	X
+http://t.co/Xh98KtBCrV	X
 
 Videolina	SP
 :	FC
@@ -896,12 +897,12 @@ nessun	DIms
 danno	Sms
 alle	EAfp
 persone	Sfp
-#allertameteoSAR	N
+#allertameteoSAR	SP
 
 "	FB
-@carlomuntoni:	Snn
-#Terralba	Snn
-Guardia	SP
+@carlomuntoni:	SP
+#Terralba	SP
+Guardia	Sfs
 medica	Afs
 trasferita	Vpsfs
 nella	EAfs
@@ -910,18 +911,19 @@ Avis	SP
 di	E
 via	Sfs
 Napoli	SP
-n.3	Snn
+n.	SA
+3	N
 .	FS
 
-#allertameteoSAR	N
-http://t.co/i84UOib2Kj	N
+#allertameteoSAR	SP
+http://t.co/i84UOib2Kj	X
 "	FB
 
-AGI	Smp
+AGI	SP
 -	FC
 23:56	N
 -	FC
-#AllertameteoSAR	N
+#AllertameteoSAR	SP
 -	FC
 Ciclonekiller	SP
 in	E
@@ -932,16 +934,16 @@ fra	E
 Olbia	SP
 e	CC
 Nuoro	SP
-http://t.co/8HL8RkMi8X	N
+http://t.co/8HL8RkMi8X	X
 via	Sfs
-@Agenzia_Italia	N
+@Agenzia_Italia	SP
 
-AGI	Smp
+AGI	SP
 -	FC
 Agenzia	SP
 Italia	SP
 :	FC
-Maltempo	SP
+Maltempo	Sms
 :	FC
 protezione	Sfs
 civile	Ans
@@ -954,23 +956,23 @@ i	RDmp
 16	N
 morti	Smp
 -	FC
-#allertameteoSAR	N
-http://t.co/h9gh7OpQew	N
+#allertameteoSAR	SP
+http://t.co/h9gh7OpQew	SP
 
 "	FB
-@Emergenza24:	N
-UPDATE	N
+@Emergenza24:	SP
+UPDATE	SW
 [	FB
 18.11-23	N
 :	FC
 00	N
 ]	FB
-#Sardegna	N
+#Sardegna	SP
 +	X
 +	X
 +	X
 #MALTEMPO	Sms
-PROVVISORIO	SP
+PROVVISORIO	Ams
 :	FC
 9	N
 MORTI	SP
@@ -990,9 +992,9 @@ Uras	SP
 1	N
 Torpè	SP
 )	FB
-#allertameteoSAR"	N
+#allertameteoSAR"	SP
 
-@Selenelios	N
+@Selenelios	SP
 morti	Smp
 a	E
 Olbia	SP
@@ -1002,15 +1004,15 @@ nuorese	Sms
 ,	FF
 un	RIms
 disastro	Sms
-#allertameteoSAR	N
+#allertameteoSAR	SP
 
 La	RDfs
 protezione	Sfs
 civile	Ans
 regionale	Ans
 "	FB
-sta	Vip3s
-monitorando	Sms
+sta	VAip3s
+monitorando	Vg
 "	FB
 .	FS
 
@@ -1023,34 +1025,34 @@ di	E
 casa	Sfs
 .	FS
 
-Monitorano	SP
+Monitorano	Vip3p
 .	FS
 
-#allertameteoSAR	N
-@Tg3web	N
+#allertameteoSAR	SP
+@Tg3web	SP
 
-RT	SW
-@la_stampa:	SW
-FOTO	SP
+RT	SA
+@la_stampa:	SP
+FOTO	Sfn
 -	FC
-A	SP
-#Olbia	N
+A	E
+#Olbia	SP
 case	Sfp
 sventrate	Vpsfp
 e	CC
 crolli	Smp
-http://t.co/EVlPWawVwW	N
-#allertameteoSAR	N
-http://t.co/NFszgyqS68	N
+http://t.co/EVlPWawVwW	X
+#allertameteoSAR	SP
+http://t.co/NFszgyqS68	X
 
-#allertameteoSAR	N
+#allertameteoSAR	SP
 OLBIA	SP
 -	FC
-B	SP
-&B,	SP
+B&B	SW
+,	FC
 10	N
 posti	Smp
-letto	Vpsms
+letto	Sms
 gratis	B
 ,	FF
 via	Sfs
@@ -1070,7 +1072,7 @@ amici	Smp
 sardi	Amp
 e	CC
 controllato	Vpsms
-TL	SP
+TL	SW
 delle	EAfp
 amiche	Sfp
 qui	B
@@ -1088,14 +1090,14 @@ e	CC
 vittime	Sfp
 .	FS
 
-#allertameteoSAR	N
+#allertameteoSAR	SP
 
-#Sardegna	N
+#Sardegna	SP
 in	E
 ginocchio	Sms
 ,	FF
 ciclone	Sms
-fa	B
+fa	Vip3s
 strage	Sfs
 :	FC
 16	N
@@ -1103,20 +1105,20 @@ morti	Smp
 ,	FF
 si	PC3nn
 cercano	Vip3p
-dispersi	Vpsmp
-http://t.co/XNCv67JlOO	N
-#allertameteoSAR	N
-#ForzaSardegna	N
-@la_stampa	SA
+dispersi	Smp
+http://t.co/XNCv67JlOO	X
+#allertameteoSAR	SP
+#ForzaSardegna	SP
+@la_stampa	SP
 
-#Sardegna	N
-#allertameteoSAR	N
-#Sardegnaferita	N
-#sardolicesimo	Ams
-#Sardegna	N
-http://t.co/IkUhMX9Ibk	N
+#Sardegna	SP
+#allertameteoSAR	SP
+#Sardegnaferita	SP
+#sardolicesimo	SP
+#Sardegna	SP
+http://t.co/IkUhMX9Ibk	X
 
-#Sardegna	N
+#Sardegna	SP
 in	E
 ginocchio	Sms
 ,	FF
@@ -1131,122 +1133,106 @@ si	PC3nn
 cercano	Vip3p
 i	RDmp
 dispersi	Smp
-http://t.co/cNOQsZnHUi	N
-#allertameteoSAR	N
+http://t.co/cNOQsZnHUi	X
+#allertameteoSAR	X
 
-VIDEO	Sms
+VIDEO	Smn
 -	FC
-Caos	SP
+Caos	Sms
 in	E
-#Sardegna	N
+#Sardegna	SP
 ecco	B
 i	RDmp
 danni	Smp
 di	E
-#Cleopatra	Sfs
-http://t.co/n3i7U83gTO	N
-#allertameteoSAR	N
+#Cleopatra	SP
+http://t.co/n3i7U83gTO	X
+#allertameteoSAR	SP
 
-FOTO	Sfs
+FOTO	Sfn
 -	FC
-A	SP
+A	E
+#Olbia	SP
+case	Sfp
+sventrate	Vpsfp
+e	CC
+crolli	Smp
+http://t.co/oE6uAOp5EH	X
+#allertameteoSAR	SP
+http://t.co/SSZAA4HGmb	X
+
+-	FC
+Fotoreportage	Sms
+-	FC
+A	E
 #Olbia	N
 case	Sfp
 sventrate	Vpsfp
 e	CC
 crolli	Smp
-http://t.co/oE6uAOp5EH	N
-#allertameteoSAR	N
-http://t.co/SSZAA4HGmb	N
-
--	FC
-Fotoreportage	SP
--	FC
-A	SP
-#Olbia	N
-case	Sfp
-sventrate	Vpsfp
-e	CC
-crolli	Smp
-http://t.co/oE6uAOp5EH	N
-#SARDEGNA	SA
+http://t.co/oE6uAOp5EH	X
+#SARDEGNA	SP
 #FORZASARDEGNA	SP
 #allertameteoSAR	SP
-http://t.co/WmQOnH1Sl4	N
+http://t.co/WmQOnH1Sl4	X
 
 -	FC
-Fotoreportage	SP
+Fotoreportage	Sms
 -	FC
-A	SP
-#Olbia	N
+A	E
+#Olbia	SP
 case	Sfp
 sventrate	Vpsfp
 e	CC
 crolli	Smp
-http://t.co/oE6uAOp5EH	N
-#SARDEGNA	SA
+http://t.co/oE6uAOp5EH	X
+#SARDEGNA	SP
 #FORZASARDEGNA	SP
-#allertameteoSAR	N
+#allertameteoSAR	X
 
-#Sardegna,	N
+#Sardegna,	SP
 il	RDms
 piccolo	Ams
 Enrico	SP
 morto	Vpsms
 fra	E
 le	RDfp
-braccia	Smp
+braccia	Sfp
 del	EAms
 papà	Smn
-atleta	Sns
-http://t.co/5R5dCSWIE1	N
-#FORZASARDEGNA	SA
-#allertameteoSAR	N
-@frapac71	SA
+atleta	Ans
+http://t.co/5R5dCSWIE1	X
+#FORZASARDEGNA	SP
+#allertameteoSAR	SP
+@frapac71	SP
 
-#Sardegna,	N
-il	RDms
-piccolo	Ams
-Enrico	SP
-morto	Vpsms
-fra	E
-le	RDfp
-braccia	Smp
-del	EAms
-papà	Smn
-atleta	Sns
-http://t.co/5R5dCSWIE1	N
-#FORZASARDEGNA	SA
-#allertameteoSAR	N
-@frapac71	SA
-
-VIDEO	Sms
+VIDEO	Smn
 -	FC
-#Fois:	N
+#Fois:	SP
 "	FB
 Serve	Vip3s
 risposta	Sfs
 seria	Afs
 a	E
 queste	DDfp
-morti	Sfp
+morti	Smp
 "	FB
-http://t.co/8d7RmHGyfo	N
-#forzasardegna	SA
-#allertameteoSAR	N
+http://t.co/8d7RmHGyfo	X
+#forzasardegna	SP
+#allertameteoSAR	SP
 
-#Sardegna:	N
+#Sardegna:	SP
 9	N
 vittime	Sfp
-Allagamenti	SP
+Allagamenti	Smp
 ,	FF
 crolli	Smp
 ,	FF
-centinaia	Sfp
+centinaia	Smp
 di	E
 sfollati	Smp
-http://t.co/j8obiWWhtG	N
-#allertameteoSAR	N
+http://t.co/j8obiWWhtG	X
+#allertameteoSAR	SP
 
 Vittime	Sfp
 e	CC
@@ -1272,8 +1258,8 @@ la	RDfs
 Sardegna	SP
 .	FS
 
-#allertameteoSAR	N
-http://t.co/EPiHsiGR8Y	N
+#allertameteoSAR	SP
+http://t.co/EPiHsiGR8Y	X
 
 La	RDfs
 nuova	Afs
@@ -1283,8 +1269,8 @@ di	E
 9	N
 persone	Sfp
 morte	Afp
-#allertameteoSAR	N
-#sardegna	SA
+#allertameteoSAR	SP
+#sardegna	SP
 
 Skytg24	SP
 9	N
@@ -1292,16 +1278,17 @@ morti	Smp
 e	CC
 5	N
 dispersi	Smp
-#sardegna	Amp
-#allertameteoSAR	N
+#sardegna	SP
+#allertameteoSAR	SP
 
-#AllertameteoSAR,	N
+#AllertameteoSAR	SP
+,	FC
 9	N
 morti	Smp
 accertati	Vpsmp
 .	FS
 
-Pazzesco	SP
+Pazzesco	Ams
 .	FS
 
 115	N
@@ -1312,12 +1299,12 @@ emergenze	Sfp
 Protezione	Sfs
 civile	Ans
 ,	FF
-#Gabrielli:	N
+#Gabrielli:	SP
 i	RDmp
 morti	Smp
 sono	Vip3p
 16	N
-#AllertameteoSAR	N
+#AllertameteoSAR	SP
 
 17	N
 morti	Smp
