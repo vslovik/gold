@@ -742,7 +742,7 @@ a	E
 Trieste	SP
 .	FS
 
-@oksymoron	SP
+@oksymoron	SW
 a	E
 sentire	Vf
 "	FB
@@ -766,24 +766,25 @@ so	Vip1s
 se	CS
 buttarmi	Vfc
 su	E
-dexter	SP
+dexter	SW
 o	CC
 six	SW
 feet	SW
-under	Snn
+under	SW
 
-RT	SW
-@alicam:	SW
-RT	SP
-@buzzes:	Snn
-Terremoto	SP
+RT	SA
+@alicam:	SP
+RT	SA
+@buzzes	SW
+:	FC
+Terremoto	Sms
 a	E
 Roma	SP
 segnalato	Vpsms
-via	B
+via	E
 Twitter	SP
--	FC
-http://htxt.it/F6pZ	N
+-	FS
+http://htxt.it/F6pZ	X
 
 al	EAms
 risveglio	Sms
@@ -817,14 +818,14 @@ disposizione	Sfs
 cerchiamo	Vip1p
 di	E
 diffondere	Vf
-APPELLI	SP
+APPELLI	Smp
 e	CC
-NOTIZIE	SP
-#terremoto	Snn
+NOTIZIE	Sfp
+#terremoto	Sms
 CERTE	PIfp
 ,	FF
-....	N
-http://ff.im/	SA
+....	FF
+http://ff.im/	X
 -1	N
 X2wy	SP
 
@@ -843,13 +844,13 @@ avvisaglia	Sfs
 di	E
 quello	PDms
 dell'	EAns
-acquila	Snn
+acquila	SP
 ,	FF
 miseriaccia	Sfs
 !	FS
 
-http://tinyurl.com/c3svy6	Snn
-#terremoto	Snn
+http://tinyurl.com/c3svy6	X
+#terremoto	Sms
 
 terremoto	Sms
 !	FS
@@ -876,7 +877,7 @@ adeguata	Vpsfs
 "	FB
 Enzo	SP
 Boschi	SP
-http://snipr.com/fbuuq	Snn
+http://snipr.com/fbuuq	X
 
 La	RDfs
 Lombardia	SP
@@ -897,8 +898,8 @@ civile	Ans
 squadre	Sfp
 cinofile	Afp
 ,	FF
-....	N
-http://ff.im/1WYVr	N
+....	FS
+http://ff.im/1WYVr	X
 
 IL	RDms
 network	SWmn
@@ -912,21 +913,21 @@ dal	EAms
 terremoto	Sms
 dell'	EAns
 Abruzzo	SP
-http://ff.im/1WUZ8	N
+http://ff.im/1WUZ8	X
 
 [	FB
-BLOG	SP
+BLOG	SW
 ]	FB
 La	RDfs
 terra	Sfs
 trema	Vip3s
 :	FC
 Già	B
-l	NOnn
-&#8217;Italia	N
+l'	NOnn
+Italia	SP
 era	Vii3s
 un	RIms
-Paese	SP
+Paese	Sms
 con	E
 la	RDfs
 merda	Sfs
@@ -942,11 +943,11 @@ si	PC3nn
 è	VAip3s
 m	Snn
 ...	FF
-http://tinyurl.com/d5ftd6	Snn
+http://tinyurl.com/d5ftd6	X
 
 Domani	B
 7	N
-Aprile	SP
+Aprile	Sms
 alla	EAfs
 Luiss	SP
 (	FB
@@ -971,8 +972,8 @@ emergenza	Sfs
 terremoto	Sms
 .	FS
 
-#terremoto	Snn
-Coperte	SP
+#terremoto	Sms
+Coperte	Sfp
 ,	FF
 vestiti	Smp
 ,	FF
@@ -986,7 +987,7 @@ acqua	Sfs
 .	FS
 
 Portateli	Vm2sc
-@	N
+@	X
 "	FB
 Fare	Vf
 ambiente	Sms
@@ -1005,7 +1006,7 @@ tel.	SA
 48029924	N
 
 #roma	Sfs
-#terremoto	Vip3s
+#terremoto	Sms
 appena	B
 sentito	Vpsms
 un	RIms
@@ -1031,14 +1032,18 @@ piano	Sms
 
 Terremoto	Sms
 a	E
-roma.mi	Smp
+roma	SP
+.	FS
+mi	PC1ns
 ha	VAip3s
 svegliato	Vpsms
 pur	B
 vivendo	Vg
 al	EAms
-2o	Sms
-piano.i	N
+2o	N
+piano	Sms
+.	FS
+i	RDmp
 lampadari	Smp
 continuano	Vip3p
 ad	E
@@ -1071,13 +1076,13 @@ dal	EAms
 numero	Sms
 di	E
 morti	Smp
-:-|	N
+:-|	X
 #terremoto	Sms
 
 apprende	Vip3s
 che	CS
 ANSA	SP
-sta	Vip3s
+sta	VAip3s
 seguendo	Vg
 da	E
 stanotte	B
@@ -1085,16 +1090,16 @@ Twitter	SP
 ,	FF
 Facebook	SP
 e	CC
-FriendFeed	N
+FriendFeed	SP
 per	E
-monitorare	Sms
+monitorare	Vf
 il	RDms
-social	Sms
-web	SP
+social	SW
+web	SW
 e	CC
 riprenderlo	Vfc
 #terremoto	Sms
-#earthquake	Ans
+#earthquake	SW
 
 Terremoto	Sms
 :	FC
@@ -1102,16 +1107,16 @@ danni	Smp
 a	E
 edifici	Smp
 |	X
-Comune	SP
+Comune	Sms
 di	E
 Penne	SP
-http://ff.im/1XkRu	N
+http://ff.im/1XkRu	X
 
 rimane	Vip3s
 basito	Vpsms
 nell'	EAns
-aprire	Vf
-repubblica.it	Snn
+aprire	Sms
+repubblica.it	SP
 e	CC
 nel	EAms
 leggere	Sms
@@ -1176,21 +1181,21 @@ di	E
 Roma	SP
 .	FS
 
-#Terremoto	N
+#Terremoto	Sms
 in	E
-#Abruzzo:	N
+#Abruzzo:	SP
 cellulari	Smp
 solo	B
 per	E
 emergenze	Sfp
 :	FC
-Per	SP
+Per	E
 non	BN
 sovraccaricare	Vf
 le	RDfp
 linee	Sfp
 telefoniche	Afp
-vanno	Vip3p
+vanno	VAip3p
 usati	Vpsmp
 solo	B
 in	E
@@ -1198,14 +1203,14 @@ caso	Sms
 di	E
 necessità	Sfn
 
-@_eveline_	Snn
+@_eveline_	SP
 terremoto	Sms
 ?	FS
 !	FS
 
 Otto	N
 nuovi	Amp
-follower	Snn
+follower	SW
 oggi	B
 :	FC
 benvenuti	Smp
@@ -1222,7 +1227,7 @@ parola	Sfs
 terremoto	Sms
 in	E
 un	RIms
-tweet	Sms
+tweet	SWms
 delle	EAfp
 3:36	N
 .	FS
@@ -1231,16 +1236,16 @@ sveglio	Ams
 per	E
 il	RDms
 terremoto	Sms
-....	N
+....	FF
 ma	CC
 l'	RDns
 epicentro	Sms
 ?	FS
 
 Apprende	Vip3s
-via	Sfs
-FB	N
-che	PRnn
+via	B
+FB	SP
+che	CS
 c'	PCnn
 è	VAip3s
 stato	Vpsms
