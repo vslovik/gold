@@ -115,8 +115,8 @@ TT	SA
 sono	Vip3p
 #terremoto	Sms
 e	CC
-#chelsea    SP
-,   FF
+#chelsea	SP
+,	FF
 ma	CC
 guai	Smp
 associarli	Vfc
@@ -165,7 +165,7 @@ ha	VAip3s
 svegliato	Vpsms
 il	RDms
 #terremoto	Sms
-,   FF
+,	FF
 sembrava	Vii3s
 crollasse	Vci3s
 tutto	PIms
@@ -232,7 +232,7 @@ scossa	Sfs
 ora	B
 di	E
 #terremoto	Sms
-.   FS
+.	FS
 
 E	CC
 siamo	Vip1p
@@ -392,7 +392,7 @@ condominio	Sms
 ....	FS
 
 #terremoto	Sms
-#Ferrara	Sp
+#Ferrara	SP
 VI	N
 grado	Sms
 scala	Vip3s
@@ -502,7 +502,7 @@ sveglia	Sfs
 .	FS
 
 #terremoto	Sms
-,   FF
+,	FF
 tanto	B
 vale	Vip3s
 lavorare	Vf
@@ -526,12 +526,12 @@ scossa	Sfs
 !	FS
 
 #terremoto	Sms
-#ancora B
-!   FS
+#ancora	B
+!	FS
 
 Dai	I
 #maya	SP
-,   FF
+,	FF
 fate	Vm2p
 veloce	B
 se	CS
@@ -545,7 +545,7 @@ altra	PIfs
 !	FS
 
 #terremoto	Sms
-#Milano	PC
+#Milano	SP
 
 Un'	RIfs
 altra	DIfs
@@ -732,7 +732,7 @@ però	B
 Terremoto	Sms
 sentito	Vpsms
 (	FB
-p.  SA
+p.	SA
 Romana	SP
 a	E
 Milano	SP
@@ -755,7 +755,7 @@ ritornato	Vpsms
 il	RDms
 #terremoto	Sms
 a	E
-#milano	PC
+#milano	SP
 
 Ancora	B
 scossa	Sfs
@@ -935,7 +935,7 @@ ancora	B
 Brescia	SP
 trema	Vip3s
 anche	B
-ora B
+ora	B
 .	FS
 #terremoto	Sms
 (	FB
@@ -1049,10 +1049,10 @@ nuovo	Ams
 
 Svegliati	Vm2sc
 dalla	EAfs
-scossa Sfs
+scossa	Sfs
 .	FS
 #terremoto	Sms
-#genova SP
+#genova	SP
 .	SP
 
 Zona	Sfs
@@ -1167,7 +1167,7 @@ tv	Sfs
 ne	PCnn
 parla	Vip3s
 (	FB
-#RaiNews24  SP
+#RaiNews24	SP
 )	FB
 
 #terremoto	Sms
@@ -1186,7 +1186,7 @@ anni	Smp
 sto	Vip1s
 guardando	Vg
 la	RDfs
-TV  Sfs
+TV	Sfs
 .	FS
 Che	PRnn
 oggetto	Sms
@@ -1255,6 +1255,7 @@ di	E
 Duomo	Sms
 #terremoto	Sms
 #cronachedalterremoto	Sfs
+
 Spero	Vip1s
 non	BN
 ci	PCnn
@@ -1291,7 +1292,9 @@ il	RDms
 non	BN
 abbia	VAcp3s
 fatto	Vpsms
-danni	SmpCiclone	Sms
+danni	Smp
+
+Ciclone	Sms
 #cleopatra	SP
 travolge	Vip3s
 la	RDfs
@@ -1513,8 +1516,8 @@ quel	PDms
 che	PRnn
 succede	Vip3s
 in	E
-#Sardegna   SP
-,   FF
+#Sardegna	SP
+,	FF
 9	N
 morti	Smp
 5	N
@@ -1561,7 +1564,7 @@ e	CC
 fango	Sms
 sulla	EAfs
 #Sardegna	SP
-.   FS
+.	FS
 
 Un	RIms
 abbraccio	Sms
@@ -1632,15 +1635,15 @@ via	Sfs
 
 Disastro	Sms
 #ambiente	Sms
-!   FS
+!	FS
 
 MT	SA
-@lanuovasardegna    SP
+@lanuovasardegna	SP
 :	FC
 Nubifragio	Sms
 in	E
 #Sardegna	SP
-,   FF
+,	FF
 sale	Vip3s
 a	E
 sei	N
@@ -1652,7 +1655,7 @@ http://t.co/uTZLG864fn	X
 #allertameteoSAR	SP
 
 #AllertameteoSAR	SP
-,   FF
+,	FF
 Sardegna	SP
 ,	FF
 16	N
@@ -1764,7 +1767,7 @@ Civile	SP
 morti	Smp
 a	E
 #Olbia	SP
-,   FF
+,	FF
 2	N
 prov	SA
 Nuoro	SP
@@ -1798,7 +1801,7 @@ isolati	Amp
 ,	FF
 in	E
 #Sardegna	SP
-.   FS
+.	FS
 
 Bilancio	Sms
 non	BN
@@ -1856,7 +1859,7 @@ morti	Smp
 È	Vip3s
 una	RIfs
 situazione	Sfs
-gravissima	Afss
+gravissima	Afs
 @YOUsardegna	SP
 #allertameteoSAR"	SP
 
@@ -1870,7 +1873,7 @@ Civile	SP
 9	N
 i	RDmp
 morti	Smp
-https://t.co/D301li75UM X
+https://t.co/D301li75UM	X
 "	FB
 brutte	Afp
 notizie	Sfp
@@ -1963,7 +1966,7 @@ UPDATE	X
 +++	X
 
 #MALTEMPO	Sms
-:   FC
+:	FC
 BILANCIO	Sms
 PROVVISORIO	Ams
 :	FC
@@ -1973,7 +1976,7 @@ MORTI	Smp
 SI	PC3nn
 TEMONO	Vip3p
 #DISPERSI	Smp
-+++ X
++++	X
 #allertameteoSAR	SP
 #emergenza24"	SP
 
@@ -2598,11 +2601,12 @@ morti	Smp
 sono	Vip3p
 16	N
 #AllertameteoSAR	SP
+
 #UltimOra	SP
 Nubifragio	Sms
 nelle	EAfp
-#Marche SP
-,   FC
+#Marche	SP
+,	FC
 sala	Vip3s
 a	E
 due	N
@@ -2638,10 +2642,10 @@ http://t.co/04JGAicB7u	X
 #allertameteoMAR	SP
 
 #Alluvione	Sfs
-#Senigallia SP
-,   FC
+#Senigallia	SP
+,	FC
 #danni	Sms
-:   FC
+:	FC
 montagne	Sfp
 di	E
 oggetti	Smp
@@ -2667,8 +2671,8 @@ a	E
 Borgo	SP
 Bicchia	SP
 di	E
-#Senigallia SP
-.   FS
+#Senigallia	SP
+.	FS
 
 È	VAip3s
 stato	VApsms
@@ -2693,7 +2697,7 @@ Borgo	SP
 Bicchia	SP
 a	E
 #Senigallia	SP
-.   FS
+.	FS
 
 "	FB
 @Emergenza24:	SP
@@ -2762,7 +2766,7 @@ sempre	B
 http://t.co/iEwK3oAUcv	X
 
 #Senigallia	SP
-,   FC
+,	FC
 pare	Vip3p
 siano	Vcp3p
 due	N
@@ -2779,7 +2783,7 @@ italiana	Afs
 #alluvione	Sfs
 di	E
 #senigallia	SP
-,   FC
+,	FC
 #operaio	Sms
 #precipita	Vip3s
 per	E
@@ -2862,7 +2866,7 @@ sulla	EAfs
 strada	Sfs
 Lungo	SP
 #Ete	SP
-,   FC
+,	FC
 a	E
 monte	Sms
 del	EAms
@@ -2966,7 +2970,7 @@ acqua	Sfs
 nelle	EAfp
 .	FS
 #Marche	SP
-,   FC
+,	FC
 un	RIms
 morto	Sms
 e	CC
@@ -2984,7 +2988,7 @@ Situazione	SP
 drammatica	Afs
 a	E
 #Senigallia"	SP
-.   FC
+.	FC
 
 Ansa	SA
 *	X
@@ -3010,15 +3014,15 @@ telefono	Sms
 ,	FF
 scuole	Sfp
 chiuse	Afp
-.
-a
+.	FS
+
 "	FB
 @SkyTG24:	SP
 #UltimOra	SP
 Nubifragio	Sms
 nelle	EAfp
 #Marche	SP
-,   FC
+,	FC
 sala	Vip3s
 a	E
 due	N
@@ -3080,7 +3084,7 @@ vittime	Sfp
 #Marche:	SP
 emergenza	Sfs
 #maltempo	Sms
-,   FC
+,	FC
 morti	Smp
 e	CC
 sfollati	Smp
@@ -3131,13 +3135,13 @@ risarcimenti	Smp
 dei	EAmp
 danni	Smp
 #senigallia	SP
-....    FS
+....	FS
 
 http://t.co/TKHfEPLqYt	X
 
 #Maltempo	SP
 #Marche	SP
-,   FC
+,	FC
 #Senigallia	SP
 è	VAip3s
 sommersa	Vpsfs
@@ -3228,7 +3232,7 @@ due	N
 morti	Smp
 a	E
 #Senigallia	SP
-.   FS
+.	FS
 
 Spacca	SP
 :	FC
@@ -3859,6 +3863,7 @@ conta	Sfs
 dei	EAmp
 danni	Smp
 .	FS
+
 non	BN
 ha	VAip3s
 sentito	Vpsms
@@ -3999,8 +4004,8 @@ Twitter	SP
 -	FC
 http://htxt.it/ToHH	X
 
-#terremoto  Sms
-:   FC
+#terremoto	Sms
+:	FC
 su	E
 Twitter	SP
 sembra	Vip3s
@@ -4050,7 +4055,7 @@ Twitter	SP
 http://htxt.it/F6pZ	X
 
 #terremoto	Sms
-.   FS
+.	FS
 
 Televideo	Smn
 RAI	SP
@@ -4067,8 +4072,8 @@ intitola	Vip3s
 forte	B
 scossa	Vpsfs
 tra	E
-Marche SP
-- 	CC
+Marche	SP
+-	CC
 Romagna	SP
 
 Lieve	Ans
@@ -4113,7 +4118,7 @@ fortina	Sfs
 
 Scossa	Sfs
 di	E
-Terremoto Sms
+Terremoto	Sms
 forte	B
 ,	FF
 avete	VAip2p
@@ -4380,7 +4385,6 @@ Sono	Vip3p
 i	RDmp
 morti	Smp
 accertati	Vpsmp
-n
 ...	FF
 http://tinyurl.com/cs5l52	X
 
@@ -4504,7 +4508,6 @@ e	CC
 due	N
 ragazze	Sfp
 ,	FF
-t
 ...	FF
 http://tinyurl.com/cn3vaa	X
 
@@ -4763,7 +4766,7 @@ cinofile	Afp
 http://ff.im/1WYVr	X
 
 IL	RDms
-network	SWmn
+network	SW
 di	E
 soccorsi	Smp
 per	E
@@ -5088,7 +5091,7 @@ parola	Sfs
 terremoto	Sms
 in	E
 un	RIms
-tweet	SWms
+tweet	SW
 delle	EAfp
 3:36	N
 .	FS

@@ -392,7 +392,7 @@ condominio	Sms
 ....	FS
 
 #terremoto	Sms
-#Ferrara	Sp
+#Ferrara	SP
 VI	N
 grado	Sms
 scala	Vip3s
@@ -545,7 +545,7 @@ altra	PIfs
 !	FS
 
 #terremoto	Sms
-#Milano	PC
+#Milano	SP
 
 Un'	RIfs
 altra	DIfs
@@ -755,7 +755,7 @@ ritornato	Vpsms
 il	RDms
 #terremoto	Sms
 a	E
-#milano	PC
+#milano	SP
 
 Ancora	B
 scossa	Sfs
@@ -1261,12 +1261,14 @@ disperso	Sms
 tra	E
 operai	Smp
 a	E
-#Bondeno.	N
+#Bondeno	SP
+.	FS
 
 Fonte	Sfs
-RaiNews.	N
+RaiNews	SP
+.	FS
 #terremoto	Sms
-#cronachedalterremoto	Ams
+#cronachedalterremoto	SP
 
 3000	N
 sfollati	Smp
@@ -1282,7 +1284,7 @@ del	EAms
 terremoto	Sms
 in	E
 Emilia	SP
-#terremoto	Snn
+#terremoto	Sms
 
 Dopo	E
 le	RDfp
@@ -1290,15 +1292,15 @@ catastrofi	Sfp
 di	E
 oggi	Sms
 su	E
-#Italia1	N
-danno	Sms
+#Italia1	SP
+danno	Vip3p
 "	FB
 Vulcano	SP
 "	FB
 !	FS
 
 #terremoto	Sms
-#masochismo	Ams
+#masochismo	Sms
 
 #terremoto	Sms
 un'	RIfs
@@ -1306,10 +1308,10 @@ altra	PIfs
 !	FS
 !	FS
 
-Giuro	SP
+Giuro	Vip1s
 qua	B
 non	BN
-di	E
+si	E
 svegliano	Vip3p
 neanche	B
 col	EAms
@@ -1317,8 +1319,8 @@ col	EAms
 
 Di	E
 buono	Sms
-c	Snn
-‘è	Snn
+c'	PCnn
+è	Vip3s
 che	PRnn
 domani	B
 non	BN
@@ -1342,11 +1344,11 @@ o	CC
 assestamento	Sms
 .	FS
 
-#VE	Sfs
-#terremoto	Snn
+#VE	SP
+#terremoto	Sms
 
 Altra	DIfs
-scossa	Vpsfs
+scossa	Sfs
 ora	B
 piuttosto	B
 forte	Ans
@@ -1361,7 +1363,7 @@ ancora	B
 #terremoto	Sms
 
 Appena	B
-sentita	Afs
+sentita	Vpsfs
 scossa	Sfs
 di	E
 assestamento	Sms
@@ -1372,10 +1374,10 @@ Moniga	SP
 Tg2	SP
 in	E
 diretta	Sfs
-crolla	Afs
+crolla	Vip3s
 parte	Sfs
 di	E
-Municipio	SP
+Municipio	Sms
 già	B
 lesionato	Vpsms
 #terremoto	Sms
@@ -1383,9 +1385,9 @@ lesionato	Vpsms
 Altra	DIfs
 scossa	Sfs
 fortissima	Afs
-ora	Sfs
+ora	B
 siamo	Vip1p
-uscite	Sfp
+uscite	Vpsfp
 di	E
 casa	Sfs
 
@@ -1393,10 +1395,11 @@ Crepa	Sfs
 nel	EAms
 muro	Sms
 di	E
-casa.	Sms
-#terremoto	Ams
-#ferrara	Snn
-http://t.co/m0XGxmvC	Snn
+casa	Sms
+.	FS
+#terremoto	Sms
+#ferrara	SP
+http://t.co/m0XGxmvC	X
 
 Nuova	Afs
 scossa	Sfs
@@ -1425,14 +1428,14 @@ nel	EAms
 a	E
 crollare	Vf
 i	RDmp
-vecchi	Smp
+vecchi	Amp
 edifici	Smp
 e	CC
-....	N
+....	FF
 i	RDmp
 capannoni	Smp
 industriali	Anp
-......	N
+......	FS
 
 #terremoto	Sms
 nuova	Afs
@@ -1465,7 +1468,7 @@ leggera	Afs
 !	FS
 
 #terremoto	Sms
-#mortacciTua	N
+#mortacciTua	I
 nemmeno	B
 la	RDfs
 notte	Sfs
@@ -1485,7 +1488,8 @@ Rieccolo	SP
 .	FS
 
 Ciao	I
-#terremoto,	Snn
+#terremoto	Sms
+,	FC
 mi	PC1ns
 mancavi	Vii2s
 .	FS
@@ -1499,9 +1503,7 @@ eri	VAip3s
 passato	Vpsms
 di	E
 qui	B
-:	FC
--	FC
-P	RDmp
+:-P	X
 
 #terremoto	Sms
 altra	Afs

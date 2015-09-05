@@ -1,0 +1,30 @@
+http://nlp.stanford.edu/nlp/javadoc/javanlp/edu/stanford/nlp/tagger/maxent/MaxentTagger.html
+
+1.
+Train model
+
+java -mx10g edu.stanford.nlp.tagger.maxent.MaxentTagger -props /home/lera/jproject/gold/model5/italian.tagger.props
+
+Saving dictionary of 14658 words ...
+Extractors list:
+Extractors[Extractor(-1,word), Extractor(0,word), Extractor(1,word), ExtractorFrames$ExtractorContinuousTagConjunction(-2,tag), Extractor(-1,tag)]
+rareExtractors[ExtractorUCase(), ExtractorCNumber(), ExtractorDash(), ExtractorAllCap(), ExtractorLetterDigitDash(), CompanyNameDetector(), ExtractorAllCapitalized(), ExtractorUpperDigitDash(), ExtractorStartSentenceCap(), ExtractorMidSentenceCapC(), ExtractorMidSentenceCap(), ExtractorWordSuff(len1,w0), ExtractorWordSuff(len2,w0), ExtractorWordSuff(len3,w0), ExtractorWordSuff(len4,w0), ExtractorWordSuff(len5,w0), ExtractorWordSuff(len6,w0), ExtractorWordSuff(len7,w0), ExtractorWordSuff(len8,w0), ExtractorWordSuff(len9,w0), ExtractorWordSuff(len10,w0), ExtractorWordPref(len1,w0), ExtractorWordPref(len2,w0), ExtractorWordPref(len3,w0), ExtractorWordPref(len4,w0), ExtractorWordPref(len5,w0), ExtractorWordPref(len6,w0), ExtractorWordPref(len7,w0), ExtractorWordPref(len8,w0), ExtractorWordPref(len9,w0), ExtractorWordPref(len10,w0), ExtractorWordShapeClassifier(-1,chris4), ExtractorWordShapeClassifier(0,chris4), ExtractorWordShapeClassifier(1,chris4), ExtractorWordSuff(len1,w0), ExtractorWordSuff(len2,w0), ExtractorWordSuff(len3,w0)]
+Training POS tagger done [560,0 sec].
+
+
+2.
+Test model: web
+java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model5/italian.tagger -testFile format=TSV,/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-tail-5001.pos -outputFormat tsv > /home/lera/jproject/gold/model5/tested_web
+
+
+3.
+Test model
+java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model5/italian.tagger -testFile format=TSV,/home/lera/jproject/gold/gold -outputFormat tsv > /home/lera/jproject/gold/model5/tested
+
+Total tags correct: 3716; wrong: 929; unknown wrong: 620
+Tagged 4645 words at 10,33 words per second.
+Model /home/lera/jproject/gold/model5/italian.tagger has xSize=74475, ySize=240, and numFeatures=90895.
+Results on 469 sentences and 4645 words, of which 1397 were unknown.
+Total sentences right: 104 (22,174840%); wrong: 365 (77,825160%).
+Total tags right: 3716 (80,000000%); wrong: 929 (20,000000%).
+Unknown words right: 777 (55,619184%); wrong: 620 (44,380816%).

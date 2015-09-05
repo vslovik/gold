@@ -1,0 +1,35 @@
+http://nlp.stanford.edu/nlp/javadoc/javanlp/edu/stanford/nlp/tagger/maxent/MaxentTagger.html
+
+1.
+Train model
+
+java -mx10g edu.stanford.nlp.tagger.maxent.MaxentTagger -props /home/lera/jproject/gold/model6/italian.tagger.props
+
+Model is correct [empirical expec = model expec]
+Saving dictionary of 14658 words ...
+Extractors list:
+Extractors[Extractor(-1,word), Extractor(0,word), Extractor(1,word), ExtractorFrames$ExtractorContinuousTagConjunction(-2,tag), Extractor(-1,tag)]
+rareExtractors[ExtractorUCase(), ExtractorCNumber(), ExtractorDash(), ExtractorAllCap(), ExtractorLetterDigitDash(), CompanyNameDetector(), ExtractorAllCapitalized(), ExtractorUpperDigitDash(), ExtractorStartSentenceCap(), ExtractorMidSentenceCapC(), ExtractorMidSentenceCap(), ExtractorWordSuff(len1,w0), ExtractorWordSuff(len2,w0), ExtractorWordSuff(len3,w0), ExtractorWordSuff(len4,w0), ExtractorWordSuff(len5,w0), ExtractorWordSuff(len6,w0), ExtractorWordSuff(len7,w0), ExtractorWordSuff(len8,w0), ExtractorWordSuff(len9,w0), ExtractorWordSuff(len10,w0), ExtractorWordPref(len1,w0), ExtractorWordPref(len2,w0), ExtractorWordPref(len3,w0), ExtractorWordPref(len4,w0), ExtractorWordPref(len5,w0), ExtractorWordPref(len6,w0), ExtractorWordPref(len7,w0), ExtractorWordPref(len8,w0), ExtractorWordPref(len9,w0), ExtractorWordPref(len10,w0), ExtractorWordShapeClassifier(-1,chris4), ExtractorWordShapeClassifier(0,chris4), ExtractorWordShapeClassifier(1,chris4), ExtractorWordSuff(len1,w0), ExtractorWordSuff(len2,w0)]
+Training POS tagger done [507,0 sec].
+
+
+Number of features: 90895
+Tag set: [APms, APmp, VMip3s, VMip3p, DEnp, DEnn, Tfp, Tfs, PC2ns, PC2np, VMcp3s, VAii1s, VAii1p, VMcp3p, VAci3p, DIfp, VMip1s, APnp, VMip2s, APnn, DIfs, VAci3s, Vci3p, VMip2p, Vii1s, Vci3s, DQfp, Vii1p, DDms, DQfs, RIms, DDmp, B, E, EAfp, EAfs, I, BN, Vis3s, N, SA, Vci2p, V, X, RDfs, Sfn, RDfp, DDns, Sfp, SP, CC, Sfs, Bc, SW, PC1ns, PC1np, NOfs, VAii3s, VAii3p, NOfp, CS, Vis3p, Vci1p, VAip1s, Vppp, Vci1s, Vpps, VAcp3p, VAip1p, VAcp3s, VAfc, Vpsmpc, VMf, Vis1s, PC3msc, VMg, PDnp, VApsmp, VMif3s, PDns, VApsms, Vpsfsc, VMif3p, PIfs, PIfp, PE3fs, PE3fp, VAis1s, Vis1p, PDmp, FB, FC, VMif2p, PDms, FF, PC3ms, PC3mp, DImp, Afp, DIms, Vpsmp, FS, Afs, Vpsms, Vf, Vg, PC3nsc, .$$., PCnn, PC3ns, PC3nn, PPfs, VAgc, VAis3s, PCmp, DRns, VAis3p, Tmp, Tms, PCms, PRmp, NOmp, NOms, VMd3p, PRms, VMd3s, VMpsms, PE1np, VAf, EAmp, VAif3p, APfs, Vpsmsc, Vm2sc, PE1ns, APfp, DIns, VAif3s, DQnn, VMpsmp, DQnp, DQns, Smn, Smp, Sms, Vif3p, Vif3s, EAns, PQms, Vm1pc, VMd1p, VMd1s, RDns, Snn, DDfs, Snp, DDfp, Sns, Vif2s, PIns, Vif2p, PInn, PRnp, RIfs, EAms, PRns, NOnn, PRnn, RDmp, VMm2p, VMm2s, Vif1s, PImp, PIms, RDms, Vif1p, Vm2pc, PE3ms, PPms, PE3mp, PPmp, VMci3s, Vfc, Vpsfp, VAip2s, Vpsfs, VAip2p, VMii1s, VMci3p, Vd1s, PE3nn, VMii1p, PDfp, VMfc, VAd3s, PQns, PE3ns, PQnn, Amp, Ams, Vcp1pc, PE3np, VAip3p, VAd3p, VMis3s, Vip3s, Vm2s, VApsfp, VApsfs, Vgc, VAip3s, Vip3p, Vm2p, Ann, Anp, Vd3p, Vd3s, Ans, Vcp3s, Vcp3p, VMip1p, Vip2s, Vip2p, VMii3s, PE2np, VMii3p, VAd1s, VAd1p, PDfs, PE2ns, Vd2s, PC3fs, PC3fn, Vcp2s, Vip1p, Vip1s, VMii2s, CC,CS,FF,FC,FS,FB, Vii3s, Vii3p]
+240 tags
+
+2.
+Test model: web
+java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model6/italian.tagger -testFile format=TSV,/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-tail-5001.pos -outputFormat tsv > /home/lera/jproject/gold/model6/tested_web
+
+
+3.
+Test model
+java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model6/italian.tagger -testFile format=TSV,/home/lera/jproject/gold/gold -outputFormat tsv > /home/lera/jproject/gold/model6/tested
+
+Total tags correct: 3713; wrong: 932; unknown wrong: 623
+Tagged 4645 words at 10,47 words per second.
+Model /home/lera/jproject/gold/model6/italian.tagger has xSize=74475, ySize=240, and numFeatures=89493.
+Results on 469 sentences and 4645 words, of which 1397 were unknown.
+Total sentences right: 101 (21,535181%); wrong: 368 (78,464819%).
+Total tags right: 3713 (79,935414%); wrong: 932 (20,064586%).
+Unknown words right: 774 (55,404438%); wrong: 623 (44,595562%).

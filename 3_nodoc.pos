@@ -411,7 +411,7 @@ telefono	Sms
 scuole	Sfp
 chiuse	Afp
 .
-a
+
 "	FB
 @SkyTG24:	SP
 #UltimOra	SP
@@ -1260,10 +1260,10 @@ dei	EAmp
 danni	Smp
 .	FS
 
-#Renzi	N
+#Renzi	SP
 va	Vip3s
 a	E
-#Senigallia	N
+#Senigallia	SP
 allagata	Vpsfs
 con	E
 due	N
@@ -1274,7 +1274,7 @@ Dirà	Vif3s
 qualcosa	PIns
 come	E
 :	FC
-Cari	SP
+Cari	Amp
 signori	Smp
 ,	FF
 con	E
@@ -1288,12 +1288,12 @@ ottimi	Amp
 stivali	Smp
 !	FS
 
-#Senigallia	N
+#Senigallia	SP
 è	VAip3s
 sparita	Vpsfs
 dalle	EAfp
-TT	SP
-......	N
+TT	SA
+......	FC
 alluvioni	Sfp
 e	CC
 morti	Smp
@@ -1307,7 +1307,7 @@ TG1	SP
 delle	EAfp
 9	N
 sulla	EAfs
-rai	Smp
+rai	SP
 apre	Vip3s
 con	E
 gli	RDmp
@@ -1321,11 +1321,14 @@ fra	E
 gli	RDmp
 alluvionati	Smp
 di	E
-#senigallia.Che	N
+#senigallia	SP
+.	FS
+
+Che	DEnn
 paese	Sms
 di	E
 merda	Sfs
-è	VAip3s
+è	Vip3s
 mai	B
 l'	RDns
 Italia	SP
@@ -1333,9 +1336,9 @@ Italia	SP
 Condanno	Vip3p
 i	RDmp
 Tg	SP
-xké	Snn
+xké	CS
 parlano	Vip3p
-+	X
++	B
 degli	EAmp
 ultrà	Snn
 che	CS
@@ -1355,14 +1358,14 @@ un	RIms
 popolo	Sms
 senza	E
 futuro	Sms
-#senigallia	Snn
+#senigallia	SP
 
-#renzi	Sms
+#renzi	SP
 allo	EAms
 stadio	Sms
 anziché	CS
 a	E
-#senigallia	Sfs
+#senigallia	SP
 e	CC
 i	RDmp
 giornalisti	Smp
@@ -1376,8 +1379,9 @@ sono	Vip3p
 lo	RDms
 specchio	Sms
 dell'	EAns
-Italia.	SP
-#fermiamocitutti	Snn
+Italia	SP
+.	FS
+#fermiamocitutti	SP
 
 Riflettori	Smp
 accesi	Vpsmp
@@ -1387,7 +1391,7 @@ ultrà	Ann
 in	E
 agonia	Sfs
 e	CC
-zero	Sms
+zero	DInn
 interesse	Sms
 per	E
 i	RDmp
@@ -1395,22 +1399,23 @@ due	N
 morti	Smp
 annegati	Vpsmp
 a	E
-#senigallia.	Sms
+#senigallia	SP
+.	FS
 
-Che	DQnn
+Che	DEnn
 paese	Sms
 di	E
 merda	Sfs
 
 .	FS
-@senigalliaweb	Snn
-#Senigallia	Snn
+@senigalliaweb	SP
+#Senigallia	SP
 ora	B
-http://t.co/LGdBnuMwkW	N
+http://t.co/LGdBnuMwkW	X
 "	FB
 Sempre	B
 più	B
-#BombedAcqua	N
+#BombedAcqua	SP
 danneggiano	Vip3p
 il	RDms
 territorio	Sms
@@ -1419,7 +1424,7 @@ territorio	Sms
 Bisogna	Vip3s
 far	Vf
 qualcosa	PIns
-@wwwmeteoit	Snn
+@wwwmeteoit	SP
 
 "	FB
 @ChiaraBuccini:	N

@@ -1,0 +1,30 @@
+http://nlp.stanford.edu/nlp/javadoc/javanlp/edu/stanford/nlp/tagger/maxent/MaxentTagger.html
+
+1.
+Train model
+
+java -mx8g edu.stanford.nlp.tagger.maxent.MaxentTagger -props /home/lera/jproject/gold/model1/italian.tagger.props
+
+2.
+Test model: web
+java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model1/italian.tagger -testFile format=TSV,/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-tail-5001.pos -outputFormat tsv > /home/lera/jproject/gold/model1/tested_web
+
+Total tags correct: 4499; wrong: 374; unknown wrong: 199
+Tagged 4873 words at 156,19 words per second.
+Model /home/lera/jproject/gold/model1/italian.tagger has xSize=74475, ySize=240, and numFeatures=88068.
+Results on 128 sentences and 4873 words, of which 787 were unknown.
+Total sentences right: 23 (17,968750%); wrong: 105 (82,031250%).
+Total tags right: 4499 (92,325056%); wrong: 374 (7,674944%).
+Unknown words right: 588 (74,714104%); wrong: 199 (25,285896%).
+
+
+3.
+Test model
+java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model1/italian.tagger -testFile format=TSV,/home/lera/jproject/gold/gold -outputFormat tsv > /home/lera/jproject/gold/model1/tested
+
+Tagged 4645 words at 10,26 words per second.
+Model /home/lera/jproject/gold/model1/italian.tagger has xSize=74475, ySize=240, and numFeatures=88068.
+Results on 469 sentences and 4645 words, of which 1397 were unknown.
+Total sentences right: 103 (21,961620%); wrong: 366 (78,038380%).
+Total tags right: 3695 (79,547901%); wrong: 950 (20,452099%).
+Unknown words right: 753 (53,901217%); wrong: 644 (46,098783%).

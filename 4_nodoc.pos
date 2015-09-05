@@ -1227,7 +1227,7 @@ parola	Sfs
 terremoto	Sms
 in	E
 un	RIms
-tweet	SWms
+tweet	SW
 delle	EAfp
 3:36	N
 .	FS
@@ -1262,14 +1262,14 @@ calma	Sfs
 ,	FF
 i	RDmp
 social	Snn
-network	SWmn
+network	SW
 sono	Vip3p
 i	RDmp
-migliori	Snp
+migliori	Anp
 .	FS
 
 voleva	VMii3s
-sentire	Sms
+sentire	Vf
 il	RDms
 terremoto	Sms
 
@@ -1298,9 +1298,12 @@ a	E
 cui	PRnn
 vuoi	Vip2s
 bene	B
-....	N
+....	FF
 è	Vip3s
-sconvolgente.Solidarietà	SP
+sconvolgente
+.	FS
+
+Solidarietà	Sfs
 alla	EAfs
 gente	Sfs
 che	PRnn
@@ -1312,14 +1315,14 @@ qualcosa	PIns
 nel	EAms
 terremoto	Sms
 
-Cavolo	Sms
+Cavolo	I
 almeno	B
 20	N
 morti	Smp
 per	E
 il	RDms
 terremoto	Sms
-:|	N
+:|	X
 
 Sará	SP
 che	PRnn
@@ -1355,18 +1358,9 @@ scosse	Sfp
 minori	Anp
 .	FS
 
-Creando	Vg
-a	E
-@mort	SW
-como	SP
-amigo	Sms
-imaginario	Ams
-en	Snn
-friendfeed	Snn
-
 @catepol:	Sms
-si	PC3nn
-si	PC3nn
+si	B
+si	B
 !	FS
 
 solo	B
@@ -1375,22 +1369,21 @@ crepa	Sfs
 al	EAms
 primo	NOms
 piano	Sms
-....	N
+....	FF
 re	Smn
 :	FC
-http://ff.im/1Wwqe	N
+http://ff.im/1Wwqe	X
 
 si	PC3nn
 sveglia	Vip3s
 per	E
 il	RDms
 terremoto	Sms
-....	N
+....	FS
 
 si	PC3nn
 sveglia	Vip3s
-al	EAms
-quanto	Sms
+alquanto	B
 stordito	Ams
 dalle	EAfp
 notizie	Sfp
@@ -1398,28 +1391,24 @@ del	EAms
 terremoto	Sms
 in	E
 abruzzo	SP
-!	FS
-!	FS
-!	FS
+!!!	FS
 
 Balla	Vip3s
 tutto	PIms
-....	N
+....	FS
 
 Terremoto	Sms
-!	FS
-!	FS
-!	FS
+!!!	FS
 
-RT	Sfs
-TERREMOTO	SP
+RT	SA
+TERREMOTO	Sms
 :	FC
-Cercasi	Vm2s
+Cercasi	Vip2sc
 con	E
-un	RIms
+un'	RIfs
 urgenza	Sfs
 sangue	Sms
-RH	SP
+RH	SA
 -	FC
 [	FB
 negativo	Ams
@@ -1430,14 +1419,15 @@ Avis	SP
 della	EAfs
 propria	APfs
 città	Sfn
-otelefonare	Afs
+o	CC
+telefonare	Vf
 a	E
 sede	Sfs
 Roma	SP
 .	FS
 
 Fate	Sfp
-passaparola	Smn
+passaparola	Sms
 .	FS
 
 un	RIms
@@ -1458,11 +1448,11 @@ alla	EAfs
 prova	Sfs
 le	RDfp
 infrastrutture	Sfp
-web	SP
+web	Smn
 :	FC
 i	RDmp
 nostri	APmp
-server	Snn
+server	Smn
 ne	PCnn
 risentono	Vip3p
 ...	FF
@@ -1470,16 +1460,15 @@ e	CC
 voi	PE2np
 ?	FS
 
-@tutti	Smp
+@tutti	PImp
 nelle	EAfp
 zone	Sfp
 del	EAms
 terremoto	Sms
-....	N
+....	FF
 come	B
-state	Vpsfp
-?	FS
-?	FS
+state	Vip2p
+??	FS
 
 mi	PC1ns
 segnalano	Vip3p
@@ -1507,7 +1496,7 @@ a	E
 Bergamo	SP
 per	E
 lavoro	Sms
-....	N
+....	FS
 
 Alle	EAfp
 6.40	N
@@ -1547,9 +1536,7 @@ il	RDms
 #terremoto	Sms
 in	E
 Abruzzo	SP
-*	X
-*	X
-*	X
+***	X
 
 Torna	Vip3s
 a	E
@@ -1562,18 +1549,13 @@ fuoco	Sms
 minchia	Sfs
 che	PRnn
 scossa	Sfs
-!	FS
-!	FS
-!	FS
+!!!	FS
 
-Romani	SP
+Romani	Smp
 ,	FF
 tutto	PIms
 ok	I
-?	FS
-!	FS
-?	FS
-!	FS
+?!?!	FS
 
 altra	DIfs
 scossa	Sfs
@@ -1582,22 +1564,23 @@ ora	B
 
 altra	DIfs
 scossa	Sfs
-ora.	Snn
-+	X
+ora	B
+.	FS
++	B
 lunga	Afs
 uguale	Ans
 intensità	Sfn
 a	E
 urbino	SP
 #terremoto	Sms
-#eaerthquake	Ans
+#eaerthquake	SW
 
 ora	B
 anche	B
-skytg24	Snn
+skytg24	SP
 in	E
 diretta	Sfs
-#terremoto	Ams
+#terremoto	Sms
 
 New	SP
 blog	Snn

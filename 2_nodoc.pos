@@ -563,7 +563,7 @@ morti	Smp
 È	Vip3s
 una	RIfs
 situazione	Sfs
-gravissima	Afss
+gravissima	Afs
 @YOUsardegna	SP
 #allertameteoSAR"	SP
 
@@ -1311,12 +1311,12 @@ morti	Smp
 e	CC
 4	N
 dispersi	Smp
-#allertameteoSAR	N
+#allertameteoSAR	SP
 
 Maltempo	Sms
 ,	FF
 in	E
-#Sardegna	SW
+#Sardegna	SP
 9	N
 morti	Smp
 e	CC
@@ -1332,46 +1332,26 @@ mezza	Afs
 Italia	SP
 #allertameteoSar	SP
 -	FC
-http://t.co/nuzB5XSUel	N
-
-#Maltempo,	N
-in	E
-#Sardegna	SW
-14	N
-morti	Smp
-e	CC
-10	N
-dispersi	Smp
-.	FS
-
-E	CC
-Cleopatra	SP
-arriva	Vip3s
-su	E
-mezza	Afs
-Italia	SP
-#allertameteosar	Snn
--	FC
-http://t.co/uzzsRlNZIj	N
+http://t.co/nuzB5XSUel	X
 
 Cleopatra	SP
 ,	FF
 strage	Sfs
 in	E
-#Sardegna:	SW
+#Sardegna:	SP
 16	N
 morti	Smp
 e	CC
 10	N
 dispersi	Smp
-#allertameteoSAR	N
-Leggi	SP
+#allertameteoSAR	SP
+Leggi	Vm2s
 -	FC
-http://t.co/BpdvjPksr8	N
+http://t.co/BpdvjPksr8	X
 
 Maltempo	Sms
 in	E
-#Sardegna:	N
+#Sardegna:	SP
 16	N
 morti	Smp
 ,	FF
@@ -1383,11 +1363,11 @@ sfollati	Smp
 Convocato	Vpsms
 Cdm.	SP
 #allertameteoSAR	SP
-Guarda	SP
+Guarda	Vm2s
 -	FC
-http://t.co/reUI5Y8pnu	N
+http://t.co/reUI5Y8pnu	X
 
-#Sardegna:	N
+#Sardegna:	SP
 1749	N
 sfollati	Smp
 ,	FF
@@ -1397,15 +1377,16 @@ disperso	Ams
 16	N
 vittime	Sfp
 Il	RDms
-Giornale	SP
+Giornale	Sms
 della	EAfs
-#ProtezioneCivile	N
+#ProtezioneCivile	SP
 -	FC
-#allertameteosar	Snn
-#alluvione	Snn
-http://t.co/s84NZ0bHYy	Snn
+#allertameteosar	SP
+#alluvione	Sms
+http://t.co/s84NZ0bHYy	X
 
-#Sardegna:	N
+#Sardegna	SP
+:	FC
 sfollati	Smp
 in	E
 calo	Sms
@@ -1424,12 +1405,12 @@ dei	EAmp
 danni	Smp
 "	FB
 -	FC
-#allertameteoSAR	N
-http://t.co/Wum6i7rxNK	N
+#allertameteoSAR	SP
+http://t.co/Wum6i7rxNK	X
 
 +	X
 +	X
-Al	SP
+Al	EAms
 momento	Sms
 i	RDmp
 morti	Smp
@@ -1444,13 +1425,13 @@ o	CC
 7	N
 .	FS
 
-#allertameteoSAR	N
+#allertameteoSAR	SP
 +	X
 +	X
 +	X
 
 Da	E
-Genovese	SP
+Genovese	Sms
 con	E
 le	RDfp
 ferite	Sfp
@@ -1458,18 +1439,18 @@ sempre	B
 aperte	Afp
 a	E
 causa	Sfs
-#bombad'acqu	Snn
+#bombad'acqu	SP
 '	FB
 sono	Vip1s
-vicina	Sfs
+vicina	Afs
 ai	EAmp
 sardi	Smp
 e	CC
 loro	PE3np
 12	N
 vittime	Sfp
-#sardegna	Snn
-#allertameteoSAR	Snn
+#sardegna	SP
+#allertameteoSAR	SP
 
 I	RDmp
 nostri	APmp
@@ -1481,11 +1462,12 @@ gran	Ans
 difficoltà	Sfn
 |	X
 "	FB
-@VicinanzaL:	N
+@VicinanzaL:	SP
 La	RDfs
 malanotte	Sfs
 della	EAfs
-#Sardegna:	N
+#Sardegna	SP
+:	FC
 ora	B
 i	RDmp
 morti	Smp
@@ -1493,7 +1475,8 @@ sono	VAip3p
 saliti	Vpsmp
 a	E
 12	N
-#allertameteoSAR"	N
+#allertameteoSAR	SP
+"	FB
 
 "	FB
 @SBiancini:	N
