@@ -1256,6 +1256,255 @@ Duomo	Sms
 #terremoto	Sms
 #cronachedalterremoto	Sfs
 
+Un	RIms
+disperso	Sms
+tra	E
+operai	Smp
+a	E
+#Bondeno	SP
+.	FS
+
+Fonte	Sfs
+RaiNews	SP
+.	FS
+#terremoto	Sms
+#cronachedalterremoto	SP
+
+3000	N
+sfollati	Smp
+e	CC
+6	N
+morti	Smp
+.	FS
+
+Il	RDms
+triste	Ans
+bilancio	Sms
+del	EAms
+terremoto	Sms
+in	E
+Emilia	SP
+#terremoto	Sms
+
+Dopo	E
+le	RDfp
+catastrofi	Sfp
+di	E
+oggi	Sms
+su	E
+#Italia1	SP
+danno	Vip3p
+"	FB
+Vulcano	SP
+"	FB
+!	FS
+
+#terremoto	Sms
+#masochismo	Sms
+
+#terremoto	Sms
+un'	RIfs
+altra	PIfs
+!	FS
+!	FS
+
+Giuro	Vip1s
+qua	B
+non	BN
+si	E
+svegliano	Vip3p
+neanche	B
+col	EAms
+#terremoto	Sms
+
+Di	E
+buono	Sms
+c'	PCnn
+è	Vip3s
+che	PRnn
+domani	B
+non	BN
+rivedremo	Vif1p
+quella	DDfs
+faccia	Sfs
+da	E
+culo	Sms
+di	E
+Bertolaso	SP
+.	FS
+
+#terremoto	Sms
+
+Non	BN
+capisco	Vip1s
+se	CS
+è	Vip3s
+paranoia	Sfs
+o	CC
+assestamento	Sms
+.	FS
+
+#VE	SP
+#terremoto	Sms
+
+Altra	DIfs
+scossa	Sfs
+ora	B
+piuttosto	B
+forte	Ans
+ora	B
+!	FS
+
+#terremoto	Sms
+
+ore	Sfp
+05:03	N
+ancora	B
+#terremoto	Sms
+
+Appena	B
+sentita	Vpsfs
+scossa	Sfs
+di	E
+assestamento	Sms
+a	E
+Moniga	SP
+#terremoto	Sms
+
+Tg2	SP
+in	E
+diretta	Sfs
+crolla	Vip3s
+parte	Sfs
+di	E
+Municipio	Sms
+già	B
+lesionato	Vpsms
+#terremoto	Sms
+
+Altra	DIfs
+scossa	Sfs
+fortissima	Afs
+ora	B
+siamo	Vip1p
+uscite	Vpsfp
+di	E
+casa	Sfs
+
+Crepa	Sfs
+nel	EAms
+muro	Sms
+di	E
+casa	Sms
+.	FS
+#terremoto	Sms
+#ferrara	SP
+http://t.co/m0XGxmvC	X
+
+Nuova	Afs
+scossa	Sfs
+di	E
+#terremoto	Sms
+avvertita	Vpsfs
+a	E
+genova	SP
+ore	Sfp
+5.03	N
+
+La	RDfs
+mia	APfs
+settimana	Sfs
+:	FC
+mani	Sfp
+ferite	Afp
+,	FF
+colica	Sfs
+renale	Ans
+,	FF
+#terremoto	Sms
+
+nel	EAms
+#terremoto	Sms
+a	E
+crollare	Vf
+i	RDmp
+vecchi	Amp
+edifici	Smp
+e	CC
+....	FF
+i	RDmp
+capannoni	Smp
+industriali	Anp
+......	FS
+
+#terremoto	Sms
+nuova	Afs
+scossa	Sfs
+avvertita	Vpsfs
+a	E
+venezia	SP
+
+Un'	RIfs
+altra	Afs
+scossa	Sfs
+di	E
+#terremoto	Sms
+avvertita	Vpsfs
+a	E
+La	RDfs
+Spezia	SP
+alle	EAfp
+05:04	N
+
+Un'	RIfs
+altra	Afs
+scossa	Sfs
+di	E
+#terremoto	Sms
+più	B
+leggera	Afs
+!	FS
+!	FS
+!	FS
+
+#terremoto	Sms
+#mortacciTua	I
+nemmeno	B
+la	RDfs
+notte	Sfs
+si	PC3nn
+può	VMip3s
+avere	Vf
+pace	Sfs
+in	E
+questa	DDfs
+cavolo	Sms
+di	E
+vita	Sfs
+?	FS
+?	FS
+
+Rieccolo	B
+.	FS
+
+Ciao	I
+#terremoto	Sms
+,	FC
+mi	PC1ns
+mancavi	Vii2s
+.	FS
+
+Eppure	B
+solo	B
+un'	RIfs
+ora	Sfs
+fa	B
+eri	VAip3s
+passato	Vpsms
+di	E
+qui	B
+:-P	X
+
 Spero	Vip1s
 non	BN
 ci	PCnn
@@ -1292,9 +1541,7 @@ il	RDms
 non	BN
 abbia	VAcp3s
 fatto	Vpsms
-danni	Smp
-
-Ciclone	Sms
+danni	SmpCiclone	Sms
 #cleopatra	SP
 travolge	Vip3s
 la	RDfs
@@ -2602,6 +2849,178 @@ sono	Vip3p
 16	N
 #AllertameteoSAR	SP
 
+17	N
+morti	Smp
+e	CC
+4	N
+dispersi	Smp
+#allertameteoSAR	SP
+
+Maltempo	Sms
+,	FF
+in	E
+#Sardegna	SP
+9	N
+morti	Smp
+e	CC
+5	N
+dispersi	Smp
+.	FS
+
+E	CC
+Cleopatra	SP
+arriva	Vip3s
+su	E
+mezza	Afs
+Italia	SP
+#allertameteoSar	SP
+-	FC
+http://t.co/nuzB5XSUel	X
+
+Cleopatra	SP
+,	FF
+strage	Sfs
+in	E
+#Sardegna:	SP
+16	N
+morti	Smp
+e	CC
+10	N
+dispersi	Smp
+#allertameteoSAR	SP
+Leggi	Vm2s
+-	FC
+http://t.co/BpdvjPksr8	X
+
+Maltempo	Sms
+in	E
+#Sardegna:	SP
+16	N
+morti	Smp
+,	FF
+centinaia	Sfp
+di	E
+sfollati	Smp
+.	FS
+
+Convocato	Vpsms
+Cdm.	SP
+#allertameteoSAR	SP
+Guarda	Vm2s
+-	FC
+http://t.co/reUI5Y8pnu	X
+
+#Sardegna:	SP
+1749	N
+sfollati	Smp
+,	FF
+1	N
+disperso	Ams
+,	FF
+16	N
+vittime	Sfp
+Il	RDms
+Giornale	Sms
+della	EAfs
+#ProtezioneCivile	SP
+-	FC
+#allertameteosar	SP
+#alluvione	Sms
+http://t.co/s84NZ0bHYy	X
+
+#Sardegna	SP
+:	FC
+sfollati	Smp
+in	E
+calo	Sms
+.	FS
+
+Cappellacci	SP
+:	FC
+"	FB
+Ora	B
+in	E
+tempi	Smp
+rapidi	Amp
+la	RDfs
+ricognizione	Sfs
+dei	EAmp
+danni	Smp
+"	FB
+-	FC
+#allertameteoSAR	SP
+http://t.co/Wum6i7rxNK	X
+
++	X
++	X
+Al	EAms
+momento	Sms
+i	RDmp
+morti	Smp
+sono	Vip3p
+6	N
+e	CC
+i	RDmp
+dispersi	Smp
+sarebbero	Vd3p
+6	N
+o	CC
+7	N
+.	FS
+
+#allertameteoSAR	SP
++	X
++	X
++	X
+
+Da	E
+Genovese	Sms
+con	E
+le	RDfp
+ferite	Sfp
+sempre	B
+aperte	Afp
+a	E
+causa	Sfs
+#bombad'acqu	SP
+'	FB
+sono	Vip1s
+vicina	Afs
+ai	EAmp
+sardi	Smp
+e	CC
+loro	PE3np
+12	N
+vittime	Sfp
+#sardegna	SP
+#allertameteoSAR	SP
+
+I	RDmp
+nostri	APmp
+fratelli	Smp
+sardi	Amp
+sono	Vip3p
+in	E
+gran	Ans
+difficoltà	Sfn
+|	X
+"	FB
+@VicinanzaL:	SP
+La	RDfs
+malanotte	Sfs
+della	EAfs
+#Sardegna	SP
+:	FC
+ora	B
+i	RDmp
+morti	Smp
+sono	VAip3p
+saliti	Vpsmp
+a	E
+12	N
+#allertameteoSAR	SP
+"	FB
+
 #UltimOra	SP
 Nubifragio	Sms
 nelle	EAfp
@@ -3864,6 +4283,172 @@ dei	EAmp
 danni	Smp
 .	FS
 
+#Renzi	SP
+va	Vip3s
+a	E
+#Senigallia	SP
+allagata	Vpsfs
+con	E
+due	N
+morti	Smp
+.	FS
+
+Dirà	Vif3s
+qualcosa	PIns
+come	E
+:	FC
+Cari	Amp
+signori	Smp
+,	FF
+con	E
+gli	RDmp
+80	N
+euro	Sms
+potrete	VMif2p
+comprare	Vf
+degli	EAmp
+ottimi	Amp
+stivali	Smp
+!	FS
+
+#Senigallia	SP
+è	VAip3s
+sparita	Vpsfs
+dalle	EAfp
+TT	SA
+......	FC
+alluvioni	Sfp
+e	CC
+morti	Smp
+di	E
+serie	Sfn
+B	SP
+.	FS
+
+Il	RDms
+TG1	SP
+delle	EAfp
+9	N
+sulla	EAfs
+rai	SP
+apre	Vip3s
+con	E
+gli	RDmp
+ultrà	Snn
+feriti	Vpsmp
+anziché	CS
+sui	EAmp
+2	N
+morti	Smp
+fra	E
+gli	RDmp
+alluvionati	Smp
+di	E
+#senigallia	SP
+.	FS
+
+Che	DEnn
+paese	Sms
+di	E
+merda	Sfs
+è	Vip3s
+mai	B
+l'	RDns
+Italia	SP
+
+Condanno	Vip3p
+i	RDmp
+Tg	SP
+xké	CS
+parlano	Vip3p
++	B
+degli	EAmp
+ultrà	Snn
+che	CS
+degli	EAmp
+alluvionati	Smp
+poi	B
+vedo	Vip1s
+gli	RDmp
+italiani	Smp
+fare	Vf
+lo	RDms
+stesso	PDms
+.	FS
+
+Siamo	Vip1p
+un	RIms
+popolo	Sms
+senza	E
+futuro	Sms
+#senigallia	SP
+
+#renzi	SP
+allo	EAms
+stadio	Sms
+anziché	CS
+a	E
+#senigallia	SP
+e	CC
+i	RDmp
+giornalisti	Smp
+che	PRnn
+danno	Vip3p
+la	RDfs
+precedenza	Sfs
+agli	EAmp
+ultrà	Snn
+sono	Vip3p
+lo	RDms
+specchio	Sms
+dell'	EAns
+Italia	SP
+.	FS
+#fermiamocitutti	SP
+
+Riflettori	Smp
+accesi	Vpsmp
+sul	EAms
+tifoso	Sms
+ultrà	Ann
+in	E
+agonia	Sfs
+e	CC
+zero	DInn
+interesse	Sms
+per	E
+i	RDmp
+due	N
+morti	Smp
+annegati	Vpsmp
+a	E
+#senigallia	SP
+.	FS
+
+Che	DEnn
+paese	Sms
+di	E
+merda	Sfs
+
+.	FS
+@senigalliaweb	SP
+#Senigallia	SP
+ora	B
+http://t.co/LGdBnuMwkW	X
+"	FB
+Sempre	B
+più	B
+#BombedAcqua	SP
+danneggiano	Vip3p
+il	RDms
+territorio	Sms
+.	FS
+
+Bisogna	Vip3s
+far	Vf
+qualcosa	PIns
+@wwwmeteoit	SP
+
 non	BN
 ha	VAip3s
 sentito	Vpsms
@@ -4507,7 +5092,6 @@ ragazzi	Smp
 e	CC
 due	N
 ragazze	Sfp
-,	FF
 ...	FF
 http://tinyurl.com/cn3vaa	X
 
@@ -4766,7 +5350,7 @@ cinofile	Afp
 http://ff.im/1WYVr	X
 
 IL	RDms
-network	SW
+network	SWmn
 di	E
 soccorsi	Smp
 per	E
@@ -5116,3 +5700,332 @@ stato	Vpsms
 il	RDms
 terremoto	Sms
 .	FS
+
+I	RDmp
+giornali	Smp
+ci	PCnn
+arrivano	Vip3p
+con	E
+calma	Sfs
+,	FF
+i	RDmp
+social	Snn
+network	SW
+sono	Vip3p
+i	RDmp
+migliori	Anp
+.	FS
+
+voleva	VMii3s
+sentire	Vf
+il	RDms
+terremoto	Sms
+
+tranquilli	Amp
+....	FF
+il	RDms
+terremoto	Sms
+è	VAip3s
+stato	VApsms
+quando	CS
+ho	VAip1s
+scoreggiato	Vpsms
+nel	EAms
+divano	Sms
+guardando	Vg
+la	RDfs
+tv	Sfn
+
+Il	RDms
+terrore	Sms
+nella	EAfs
+voce	Sfs
+delle	EAfp
+persone	Sfp
+a	E
+cui	PRnn
+vuoi	Vip2s
+bene	B
+....	FF
+è	Vip3s
+sconvolgente	Ans
+.	FS
+
+Solidarietà	Sfs
+alla	EAfs
+gente	Sfs
+che	PRnn
+ha	VAip3s
+perso	Vpsms
+qualcuno	PIms
+o	CC
+qualcosa	PIns
+nel	EAms
+terremoto	Sms
+
+Cavolo	I
+almeno	B
+20	N
+morti	Smp
+per	E
+il	RDms
+terremoto	Sms
+:|	X
+
+Sará	SP
+che	PRnn
+aveva	VAii3s
+molto	DIms
+sonno	Sms
+,	FF
+ma	CC
+non	BN
+ha	VAip3s
+sentito	Vpsms
+nessun	DIms
+terremoto	Sms
+.	FS
+
+Purtroppo	B
+arriveranno	Vif3p
+altre	DIfp
+scosse	Sfp
+.	FS
+
+Un	RIms
+terremoto	Sms
+non	BN
+è	VAip3s
+mai	B
+isolato	Vpsms
+.	FS
+
+Speriamo	Vip1p
+siano	Vcp3p
+scosse	Sfp
+minori	Anp
+.	FS
+
+@catepol:	Sms
+si	B
+si	B
+!	FS
+
+solo	B
+una	RIfs
+crepa	Sfs
+al	EAms
+primo	NOms
+piano	Sms
+....	FF
+re	Smn
+:	FC
+http://ff.im/1Wwqe	X
+
+si	PC3nn
+sveglia	Vip3s
+per	E
+il	RDms
+terremoto	Sms
+....	FS
+
+si	PC3nn
+sveglia	Vip3s
+alquanto	B
+stordito	Ams
+dalle	EAfp
+notizie	Sfp
+del	EAms
+terremoto	Sms
+in	E
+abruzzo	SP
+!!!	FS
+
+Balla	Vip3s
+tutto	PIms
+....	FS
+
+Terremoto	Sms
+!!!	FS
+
+RT	SA
+TERREMOTO	Sms
+:	FC
+Cercasi	Vip2sc
+con	E
+un'	RIfs
+urgenza	Sfs
+sangue	Sms
+RH	SA
+-	FC
+[	FB
+negativo	Ams
+]	FB
+,	FF
+rivolgersi	Vfc
+Avis	SP
+della	EAfs
+propria	APfs
+città	Sfn
+o	CC
+telefonare	Vf
+a	E
+sede	Sfs
+Roma	SP
+.	FS
+
+Fate	Sfp
+passaparola	Sms
+.	FS
+
+un	RIms
+bacio	Sms
+al	EAms
+Lazio	SP
+colpito	Vpsms
+dal	EAms
+terremoto	Sms
+
+credo	Vip1s
+che	CS
+il	RDms
+terremoto	Sms
+abbia	VAcp3s
+messo	Vpsms
+alla	EAfs
+prova	Sfs
+le	RDfp
+infrastrutture	Sfp
+web	Smn
+:	FC
+i	RDmp
+nostri	APmp
+server	Smn
+ne	PCnn
+risentono	Vip3p
+...	FF
+e	CC
+voi	PE2np
+?	FS
+
+@tutti	PImp
+nelle	EAfp
+zone	Sfp
+del	EAms
+terremoto	Sms
+....	FF
+come	B
+state	Vip2p
+??	FS
+
+mi	PC1ns
+segnalano	Vip3p
+la	RDfs
+nuova	Afs
+scossa	Sfs
+a	E
+Ravenna	SP
+e	CC
+dintorni	Smp
+,	FF
+ma	CC
+che	DQnn
+cacchio	Sms
+succede	Vip3s
+?	FS
+
+Tutto	PIms
+bene	B
+?	FS
+
+Io	PE1ns
+sono	Vip1s
+a	E
+Bergamo	SP
+per	E
+lavoro	Sms
+....	FS
+
+Alle	EAfp
+6.40	N
+am	SA
+,	FF
+le	RDfp
+vittime	Sfp
+del	EAms
+terremoto	Sms
+in	E
+Abruzzo	SP
+sono	Vip3p
+13	N
+.	FS
+
+esprime	Vip3s
+solidarietà	Sfn
+verso	E
+le	RDfp
+persone	Sfp
+e	CC
+famiglie	Sfp
+che	PRnn
+si	PC3nn
+ritrovano	Vip3p
+senza	E
+casa	Sfs
+e	CC
+che	PRnn
+hanno	VAip3p
+perso	Vpsms
+i	RDmp
+propri	APmp
+cari	Smp
+per	E
+il	RDms
+#terremoto	Sms
+in	E
+Abruzzo	SP
+***	X
+
+Torna	Vip3s
+a	E
+casa	Sfs
+,	FF
+pomeriggio	Sms
+di	E
+fuoco	Sms
+
+minchia	Sfs
+che	PRnn
+scossa	Sfs
+!!!	FS
+
+Romani	Smp
+,	FF
+tutto	PIms
+ok	I
+?!?!	FS
+
+altra	DIfs
+scossa	Sfs
+lieve	Ans
+ora	B
+
+altra	DIfs
+scossa	Sfs
+ora	B
+.	FS
++	B
+lunga	Afs
+uguale	Ans
+intensità	Sfn
+a	E
+urbino	SP
+#terremoto	Sms
+#eaerthquake	SW
+
+ora	B
+anche	B
+skytg24	SP
+in	E
+diretta	Sfs
+#terremoto	Sms

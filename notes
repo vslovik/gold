@@ -1,66 +1,10 @@
-Interjection as ecchecazzo cristoddio soccia? http://www.oxforddictionaries.com/words/exclamations https://it.answers.yahoo.com/question/index?qid=20080405142501AAUmJUF
-Attenzione! -Sfs
-
-
-Composed words like
- #terremotobologna	Sms?
- #cronachedalterremoto	Sfs?
- #Sardegnaferita	SP?
- #statodiemergenza	SP?
- #alluvionemarche	SP? Sfs?
- #FiorentinaNapoli	SP?
- #poveraitalia	SP?
- #fermiamocitutti	SP
-
-
-Ciclonekiller - SP?
-
-
-B&B	SW?
-posti Smp
-letto Sms
-
-TL - SW timeline http://www.urbandictionary.com/define.php?term=TL
-
-Serve risposta seria a queste morti
-
-x	E (per)
-
-dellaconta	Snn ---> della conta
-
-sfollati эвакуати
-
-cosa	Sfs
-fare	Vf
-/	CC <---------------- o
-non	BN
-fare	Vf
-
-https://it.wikipedia.org/wiki/Foglia_(fiume)
-
-molto	B
-inopportuno	Ams
-
 0 - 1507
 2 - 1480
 3 - 1428
 4 - 1584
 
 
-bagna	Vip3s
-cauda	Sfs
-
-via E (not B via) or SW
-
-
-FF vs FC ???
-
-nell'	EAns
-aprire	Vf -- non e' il sostantivo?
-
-xké
-xké	CS
-
-+ più B
-
-:-P	X
+grep -cvP '\S' file
+-P '\S'(perl regex) will match any line contains non-space
+-v select non-matching lines
+-c print a count of matching lines

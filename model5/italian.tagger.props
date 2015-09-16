@@ -2,7 +2,7 @@
                    model = /home/lera/jproject/gold/model5/italian.tagger
                     arch = left3words,naacl2003unknowns,unicodeshapes(-1,1),suffix(3)
             wordFunction = 
-               trainFile = format=TSV,/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-head-80732.pos
+               trainFile = format=TSV,path/to/Training_pos_isst-paisa-devLeg-head-80732.pos
          closedClassTags = CC,CS,FF,FC,FS,FB
  closedClassTagThreshold = 40
  curWordMinFeatureThresh = 2
