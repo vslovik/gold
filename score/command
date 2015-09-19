@@ -1,0 +1,310 @@
+http://nlp.stanford.edu/nlp/javadoc/javanlp/edu/stanford/nlp/tagger/maxent/MaxentTagger.html
+
+0.
+Tag
+java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model5/italian.tagger -textFile format=TSV,/home/lera/jproject/gold/gold -outputFile /home/lera/jproject/gold/gold_ME -outputFormat tsv
+
+1.
+Train model
+
+java -mx10g edu.stanford.nlp.tagger.maxent.MaxentTagger -props /home/lera/jproject/gold/model5/italian.tagger.props
+
+Saving dictionary of 14658 words ...
+Extractors list:
+Extractors[Extractor(-1,word), Extractor(0,word), Extractor(1,word), ExtractorFrames$ExtractorContinuousTagConjunction(-2,tag), Extractor(-1,tag)]
+rareExtractors[ExtractorUCase(), ExtractorCNumber(), ExtractorDash(), ExtractorAllCap(), ExtractorLetterDigitDash(), CompanyNameDetector(), ExtractorAllCapitalized(), ExtractorUpperDigitDash(), ExtractorStartSentenceCap(), ExtractorMidSentenceCapC(), ExtractorMidSentenceCap(), ExtractorWordSuff(len1,w0), ExtractorWordSuff(len2,w0), ExtractorWordSuff(len3,w0), ExtractorWordSuff(len4,w0), ExtractorWordSuff(len5,w0), ExtractorWordSuff(len6,w0), ExtractorWordSuff(len7,w0), ExtractorWordSuff(len8,w0), ExtractorWordSuff(len9,w0), ExtractorWordSuff(len10,w0), ExtractorWordPref(len1,w0), ExtractorWordPref(len2,w0), ExtractorWordPref(len3,w0), ExtractorWordPref(len4,w0), ExtractorWordPref(len5,w0), ExtractorWordPref(len6,w0), ExtractorWordPref(len7,w0), ExtractorWordPref(len8,w0), ExtractorWordPref(len9,w0), ExtractorWordPref(len10,w0), ExtractorWordShapeClassifier(-1,chris4), ExtractorWordShapeClassifier(0,chris4), ExtractorWordShapeClassifier(1,chris4), ExtractorWordSuff(len1,w0), ExtractorWordSuff(len2,w0), ExtractorWordSuff(len3,w0)]
+Training POS tagger done [560,0 sec].
+
+
+2.
+Test model: web
+java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model5/italian.tagger -testFile format=TSV,/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-tail-5001.pos -outputFormat tsv > /home/lera/jproject/gold/model5/tested_web
+
+
+3.
+Test model
+java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model5/italian.tagger -testFile format=TSV,/home/lera/jproject/gold/gold -outputFormat tsv > /home/lera/jproject/gold/model5/tested
+
+Total tags correct: 3716; wrong: 929; unknown wrong: 620
+Tagged 4645 words at 10,33 words per second.
+Model /home/lera/jproject/gold/model5/italian.tagger has xSize=74475, ySize=240, and numFeatures=90895.
+Results on 469 sentences and 4645 words, of which 1397 were unknown.
+Total sentences right: 104 (22,174840%); wrong: 365 (77,825160%).
+Total tags right: 3716 (80,000000%); wrong: 929 (20,000000%).
+Unknown words right: 777 (55,619184%); wrong: 620 (44,380816%).
+
+lera@lera:~/jproject/la_terra_trema/classes/production/la_terra_trema$ java score.TopTagged > /home/lera/jproject/gold/score/top50
+
+lera@lera:~/jproject/CoreNLP/classes$ java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model5/italian.tagger -testFile format=TSV,/home/lera/jproject/gold/score/top50 -outputFormat tsv
+
+java edu.stanford.nlp.tagger.maxent.MaxentTagger  -model /home/lera/jproject/gold/model5/italian.tagger -testFile format=TSV,/home/lera/jproject/gold/score/top50 -outputFormat tsv
+
+lera@lera:~/jproject/CoreNLP/classes$ cat /home/lera/jproject/gold/score/top50 | wc -l
+369
+lera@lera:~/jproject/CoreNLP/classes$ cat /home/lera/jproject/gold/score/top50 | grep -c '^$'
+50
+
+5112 - 468 = 4644
+/home/lera/jproject/gold/gold
+
+
+50 319
+Model /home/lera/jproject/gold/model5/italian.tagger has xSize=74475, ySize=240, and numFeatures=90895.
+Results on 50 sentences and 142 words, of which 36 were unknown.
+Total sentences right: 40 (80,000000%); wrong: 10 (20,000000%).
+Total tags right: 129 (90,845070%); wrong: 13 (9,154930%).
+Unknown words right: 29 (80,555556%); wrong: 7 (19,444444%).
+
+
+100 837
+Results on 100 sentences and 445 words, of which 103 were unknown.
+Total sentences right: 64 (64,000000%); wrong: 36 (36,000000%).
+Total tags right: 399 (89,662921%); wrong: 46 (10,337079%).
+Unknown words right: 82 (79,611650%); wrong: 21 (20,388350%).
+
+150 1215
+Results on 150 sentences and 967 words, of which 238 were unknown.
+Total sentences right: 80 (53,333333%); wrong: 70 (46,666667%).
+Total tags right: 854 (88,314374%); wrong: 113 (11,685626%).
+Unknown words right: 173 (72,689076%); wrong: 65 (27,310924%).
+
+200 1684
+Results on 200 sentences and 1404 words, of which 376 were unknown.
+Total sentences right: 86 (43,000000%); wrong: 114 (57,000000%).
+Total tags right: 1181 (84,116809%); wrong: 223 (15,883191%).
+Unknown words right: 238 (63,297872%); wrong: 138 (36,702128%).
+
+250 2381
+Results on 250 sentences and 1946 words, of which 564 were unknown.
+Total sentences right: 92 (36,800000%); wrong: 158 (63,200000%).
+Total tags right: 1597 (82,065776%); wrong: 349 (17,934224%).
+Unknown words right: 339 (60,106383%); wrong: 225 (39,893617%).
+
+300 3000
+Results on 300 sentences and 2485 words, of which 758 were unknown.
+Total sentences right: 97 (32,333333%); wrong: 203 (67,666667%).
+Total tags right: 2002 (80,563380%); wrong: 483 (19,436620%).
+Unknown words right: 444 (58,575198%); wrong: 314 (41,424802%)..
+
+350 3589
+Results on 350 sentences and 3046 words, of which 948 were unknown.
+Total sentences right: 100 (28,571429%); wrong: 250 (71,428571%).
+Total tags right: 2423 (79,546947%); wrong: 623 (20,453053%).
+Unknown words right: 535 (56,434599%); wrong: 413 (43,565401%).
+
+400 4162
+Results on 400 sentences and 3641 words, of which 1124 were unknown.
+Total sentences right: 104 (26,000000%); wrong: 296 (74,000000%).
+Total tags right: 2890 (79,373798%); wrong: 751 (20,626202%).
+Unknown words right: 629 (55,960854%); wrong: 495 (44,039146%).
+
+450 4582
+Results on 450 sentences and 4351 words, of which 1309 were unknown.
+Total sentences right: 106 (23,555556%); wrong: 344 (76,444444%).
+Total tags right: 3476 (79,889681%); wrong: 875 (20,110319%).
+Unknown words right: 728 (55,614973%); wrong: 581 (44,385027%)..
+
+================================================================================================================================
+
+java score.TopTagged [file to extract features from] [file with phrases to score]
+java score.TopTagged "/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-head-80732.pos" "/home/lera/jproject/gold/gold"
+
+String trainingFile = "/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-head-80732.pos";
+String corpusFile = "/home/lera/jproject/gold/gold";
+
+===============================================================================================================================
+Results on 50 sentences and 233 words, of which 49 were unknown.
+Total sentences right: 20 (40,000000%); wrong: 30 (60,000000%).
+Total tags right: 188 (80,686695%); wrong: 45 (19,313305%).
+Unknown words right: 29 (59,183673%); wrong: 20 (40,816327%).
+
+Results on 100 sentences and 686 words, of which 152 were unknown.
+Total sentences right: 34 (34,000000%); wrong: 66 (66,000000%).
+Total tags right: 555 (80,903790%); wrong: 131 (19,096210%).
+Unknown words right: 84 (55,263158%); wrong: 68 (44,736842%).
+
+Results on 150 sentences and 1512 words, of which 346 were unknown.
+Total sentences right: 40 (26,666667%); wrong: 110 (73,333333%).
+Total tags right: 1261 (83,399471%); wrong: 251 (16,600529%).
+Unknown words right: 199 (57,514451%); wrong: 147 (42,485549%).
+
+Results on 200 sentences and 1987 words, of which 480 were unknown.
+Total sentences right: 53 (26,500000%); wrong: 147 (73,500000%).
+Total tags right: 1640 (82,536487%); wrong: 347 (17,463513%).
+Unknown words right: 264 (55,000000%); wrong: 216 (45,000000%).
+
+Results on 250 sentences and 2473 words, of which 663 were unknown.
+Total sentences right: 70 (28,000000%); wrong: 180 (72,000000%).
+Total tags right: 2029 (82,046098%); wrong: 444 (17,953902%).
+Unknown words right: 378 (57,013575%); wrong: 285 (42,986425%).
+
+Results on 300 sentences and 2869 words, of which 829 were unknown.
+Total sentences right: 82 (27,333333%); wrong: 218 (72,666667%).
+Total tags right: 2320 (80,864413%); wrong: 549 (19,135587%).
+Unknown words right: 467 (56,332931%); wrong: 362 (43,667069%).
+
+Results on 350 sentences and 3305 words, of which 989 were unknown.
+Total sentences right: 89 (25,428571%); wrong: 261 (74,571429%).
+Total tags right: 2643 (79,969743%); wrong: 662 (20,030257%).
+Unknown words right: 550 (55,611729%); wrong: 439 (44,388271%).
+
+Results on 400 sentences and 3769 words, of which 1145 were unknown.
+Total sentences right: 97 (24,250000%); wrong: 303 (75,750000%).
+Total tags right: 2999 (79,570178%); wrong: 770 (20,429822%).
+Unknown words right: 632 (55,196507%); wrong: 513 (44,803493%).
+
+Results on 450 sentences and 4341 words, of which 1312 were unknown.
+Total sentences right: 104 (23,111111%); wrong: 346 (76,888889%).
+Total tags right: 3457 (79,636029%); wrong: 884 (20,363971%).
+Unknown words right: 723 (55,106707%); wrong: 589 (44,893293%).
+
+=======================================================================
+Bottom score
+
+
+Model /home/lera/jproject/gold/model5/italian.tagger has xSize=74475, ySize=240, and numFeatures=90895.
+Results on 50 sentences and 393 words, of which 134 were unknown.
+Total sentences right: 1 (2,000000%); wrong: 49 (98,000000%).
+Total tags right: 279 (70,992366%); wrong: 114 (29,007634%).
+Unknown words right: 60 (44,776119%); wrong: 74 (55,223881%).
+
+Results on 100 sentences and 815 words, of which 284 were unknown.
+Total sentences right: 6 (6,000000%); wrong: 94 (94,000000%).
+Total tags right: 583 (71,533742%); wrong: 232 (28,466258%).
+Unknown words right: 125 (44,014085%); wrong: 159 (55,985915%).
+
+Results on 150 sentences and 1488 words, of which 548 were unknown.
+Total sentences right: 9 (6,000000%); wrong: 141 (94,000000%).
+Total tags right: 1091 (73,319892%); wrong: 397 (26,680108%).
+Unknown words right: 265 (48,357664%); wrong: 283 (51,642336%).
+
+Results on 200 sentences and 2098 words, of which 753 were unknown.
+Total sentences right: 12 (6,000000%); wrong: 188 (94,000000%).
+Total tags right: 1553 (74,022879%); wrong: 545 (25,977121%).
+Unknown words right: 368 (48,871182%); wrong: 385 (51,128818%).
+
+Results on 250 sentences and 2661 words, of which 923 were unknown.
+Total sentences right: 15 (6,000000%); wrong: 235 (94,000000%).
+Total tags right: 1998 (75,084555%); wrong: 663 (24,915445%).
+Unknown words right: 466 (50,487541%); wrong: 457 (49,512459%).
+
+Results on 300 sentences and 3494 words, of which 1135 were unknown.
+Total sentences right: 17 (5,666667%); wrong: 283 (94,333333%).
+Total tags right: 2703 (77,361191%); wrong: 791 (22,638809%).
+Unknown words right: 588 (51,806167%); wrong: 547 (48,193833%).
+
+Results on 350 sentences and 4069 words, of which 1267 were unknown.
+Total sentences right: 30 (8,571429%); wrong: 320 (91,428571%).
+Total tags right: 3204 (78,741706%); wrong: 865 (21,258294%).
+Unknown words right: 677 (53,433307%); wrong: 590 (46,566693%).
+
+Results on 400 sentences and 4393 words, of which 1335 were unknown.
+Total sentences right: 54 (13,500000%); wrong: 346 (86,500000%).
+Total tags right: 3492 (79,490098%); wrong: 901 (20,509902%).
+Unknown words right: 728 (54,531835%); wrong: 607 (45,468165%).
+
+Results on 450 sentences and 4590 words, of which 1383 were unknown.
+Total sentences right: 89 (19,777778%); wrong: 361 (80,222222%).
+Total tags right: 3668 (79,912854%); wrong: 922 (20,087146%).
+Unknown words right: 766 (55,386840%); wrong: 617 (44,613160%).
+
+====================================================================
+
+Top score, extended gold sample, excluded one- and two- token phrases
+
+
+Results on 50 sentences and 391 words, of which 59 were unknown.
+Total sentences right: 30 (60,000000%); wrong: 20 (40,000000%).
+Total tags right: 362 (92,583120%); wrong: 29 (7,416880%).
+Unknown words right: 45 (76,271186%); wrong: 14 (23,728814%).
+
+Results on 100 sentences and 884 words, of which 168 were unknown.
+Total sentences right: 45 (45,000000%); wrong: 55 (55,000000%).
+Total tags right: 787 (89,027149%); wrong: 97 (10,972851%).
+Unknown words right: 116 (69,047619%); wrong: 52 (30,952381%).
+
+Results on 150 sentences and 1467 words, of which 335 were unknown.
+Total sentences right: 47 (31,333333%); wrong: 103 (68,666667%).
+Total tags right: 1255 (85,548739%); wrong: 212 (14,451261%).
+Unknown words right: 214 (63,880597%); wrong: 121 (36,119403%).
+
+Results on 200 sentences and 2031 words, of which 563 were unknown.
+Total sentences right: 52 (26,000000%); wrong: 148 (74,000000%).
+Total tags right: 1665 (81,979321%); wrong: 366 (18,020679%).
+Unknown words right: 335 (59,502664%); wrong: 228 (40,497336%).
+
+Results on 250 sentences and 2787 words, of which 825 were unknown.
+Total sentences right: 53 (21,200000%); wrong: 197 (78,800000%).
+Total tags right: 2245 (80,552565%); wrong: 542 (19,447435%).
+Unknown words right: 466 (56,484848%); wrong: 359 (43,515152%).
+
+Results on 300 sentences and 3521 words, of which 1038 were unknown.
+Total sentences right: 57 (19,000000%); wrong: 243 (81,000000%).
+Total tags right: 2830 (80,374893%); wrong: 691 (19,625107%).
+Unknown words right: 590 (56,840077%); wrong: 448 (43,159923%).
+
+Results on 350 sentences and 4227 words, of which 1221 were unknown.
+Total sentences right: 58 (16,571429%); wrong: 292 (83,428571%).
+Total tags right: 3410 (80,671871%); wrong: 817 (19,328129%).
+Unknown words right: 694 (56,838657%); wrong: 527 (43,161343%).
+
+Results on 400 sentences and 4943 words, of which 1407 were unknown.
+Total sentences right: 63 (15,750000%); wrong: 337 (84,250000%).
+Total tags right: 3995 (80,821364%); wrong: 948 (19,178636%).
+Unknown words right: 787 (55,934613%); wrong: 620 (44,065387%).
+
+Results on 415 sentences and 5118 words, of which 1458 were unknown.
+Total sentences right: 64 (15,421687%); wrong: 351 (84,578313%).
+Total tags right: 4133 (80,754201%); wrong: 985 (19,245799%).
+Unknown words right: 806 (55,281207%); wrong: 652 (44,718793%).
+
+=======================================================================
+
+Bottom score, extended gold sample, excluded one- and two- token phrases
+
+Results on 50 sentences and 393 words, of which 134 were unknown.
+Total sentences right: 1 (2,000000%); wrong: 49 (98,000000%).
+Total tags right: 279 (70,992366%); wrong: 114 (29,007634%).
+Unknown words right: 60 (44,776119%); wrong: 74 (55,223881%).
+
+Results on 100 sentences and 794 words, of which 285 were unknown.
+Total sentences right: 6 (6,000000%); wrong: 94 (94,000000%).
+Total tags right: 565 (71,158690%); wrong: 229 (28,841310%).
+Unknown words right: 126 (44,210526%); wrong: 159 (55,789474%).
+
+Results on 150 sentences and 1450 words, of which 526 were unknown.
+Total sentences right: 10 (6,666667%); wrong: 140 (93,333333%).
+Total tags right: 1070 (73,793103%); wrong: 380 (26,206897%).
+Unknown words right: 258 (49,049430%); wrong: 268 (50,950570%).
+
+Results on 200 sentences and 2135 words, of which 761 were unknown.
+Total sentences right: 14 (7,000000%); wrong: 186 (93,000000%).
+Total tags right: 1599 (74,894614%); wrong: 536 (25,105386%).
+Unknown words right: 387 (50,854139%); wrong: 374 (49,145861%).
+
+Results on 250 sentences and 2726 words, of which 955 were unknown.
+Total sentences right: 17 (6,800000%); wrong: 233 (93,200000%).
+Total tags right: 2052 (75,275128%); wrong: 674 (24,724872%).
+Unknown words right: 485 (50,785340%); wrong: 470 (49,214660%).
+
+Results on 300 sentences and 3386 words, of which 1128 were unknown.
+Total sentences right: 17 (5,666667%); wrong: 283 (94,333333%).
+Total tags right: 2597 (76,698169%); wrong: 789 (23,301831%).
+Unknown words right: 586 (51,950355%); wrong: 542 (48,049645%).
+
+Results on 350 sentences and 4036 words, of which 1305 were unknown.
+Total sentences right: 21 (6,000000%); wrong: 329 (94,000000%).
+Total tags right: 3119 (77,279485%); wrong: 917 (22,720515%).
+Unknown words right: 665 (50,957854%); wrong: 640 (49,042146%).
+
+Results on 400 sentences and 4649 words, of which 1451 were unknown.
+Total sentences right: 29 (7,250000%); wrong: 371 (92,750000%).
+Total tags right: 3647 (78,446978%); wrong: 1002 (21,553022%).
+Unknown words right: 759 (52,308753%); wrong: 692 (47,691247%).
+
+Results on 450 sentences and 5010 words, of which 1532 were unknown.
+Total sentences right: 50 (11,111111%); wrong: 400 (88,888889%).
+Total tags right: 3959 (79,021956%); wrong: 1051 (20,978044%).
+Unknown words right: 820 (53,524804%); wrong: 712 (46,475196%).
+
+
